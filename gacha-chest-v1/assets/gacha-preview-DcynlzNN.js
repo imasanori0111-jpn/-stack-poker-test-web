@@ -1449,11 +1449,12 @@ ${vm}
  100%{opacity:1;transform:translate(-50%,-48%) scale(.84)}}
 @keyframes gc-n-v114-chest-recede{
  0%{opacity:1;transform:translate(-50%,-48%) scale(.84)}
- 6%{opacity:.96;transform:translate(-50%,-45%) scale(.77)}
- 12%{opacity:.72;transform:translate(-50%,-38%) scale(.67)}
- 18%{opacity:.28;transform:translate(-50%,-31%) scale(.56)}
- 25%{opacity:0;transform:translate(-50%,-27%) scale(.46)}
- 100%{opacity:0;transform:translate(-50%,-27%) scale(.46)}
+ 4%{opacity:.94;transform:translate(-50%,-46%) scale(.72)}
+ 9%{opacity:.78;transform:translate(-50%,-41%) scale(.57)}
+ 14%{opacity:.48;transform:translate(-50%,-35%) scale(.44)}
+ 20%{opacity:.12;transform:translate(-50%,-29%) scale(.32)}
+ 25%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
+ 100%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
 }
 @keyframes gc-n-v114-front-recoil{
  0%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
@@ -1462,11 +1463,12 @@ ${vm}
  100%{opacity:1;transform:translate(-50%,-48%) scale(.84)}}
 @keyframes gc-n-v114-front-recede{
  0%{opacity:1;transform:translate(-50%,-48%) scale(.84)}
- 6%{opacity:.96;transform:translate(-50%,-45%) scale(.77)}
- 12%{opacity:.72;transform:translate(-50%,-38%) scale(.67)}
- 18%{opacity:.28;transform:translate(-50%,-31%) scale(.56)}
- 25%{opacity:0;transform:translate(-50%,-27%) scale(.46)}
- 100%{opacity:0;transform:translate(-50%,-27%) scale(.46)}
+ 4%{opacity:.94;transform:translate(-50%,-46%) scale(.72)}
+ 9%{opacity:.78;transform:translate(-50%,-41%) scale(.57)}
+ 14%{opacity:.48;transform:translate(-50%,-35%) scale(.44)}
+ 20%{opacity:.12;transform:translate(-50%,-29%) scale(.32)}
+ 25%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
+ 100%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
 }
 /* Launched from the chest opening — sparks, circular shockwave and a tight
  * directional exhaust only; they remain behind the actual PlayerCard. */
