@@ -1354,11 +1354,11 @@ ${fm}
 @keyframes gc-n-v113-inside-chest{
  0%,43%{opacity:0;transform:translateY(125px) rotateZ(-9deg) rotateY(-20deg) scale(.12)}
  69%{opacity:1;transform:translateY(101px) rotateZ(-7deg) rotateY(-17deg) scale(.17)}
- 100%{opacity:1;transform:translateY(80px) rotateZ(-6deg) rotateY(-12deg) scale(.22)}
+ 100%{opacity:1;transform:translateY(27px) rotateZ(-6deg) rotateY(-12deg) scale(.38)}
 }
 @keyframes gc-n-v113-emerge-from-chest{
- 0%{opacity:1;transform:translateY(80px) rotateZ(-6deg) rotateY(-12deg) scale(.22)}
- 13%{transform:translateY(14px) rotateZ(-3deg) rotateY(-8deg) scale(.36)}
+ 0%{opacity:1;transform:translateY(27px) rotateZ(-6deg) rotateY(-12deg) scale(.38)}
+ 13%{transform:translateY(-16px) rotateZ(-3deg) rotateY(-8deg) scale(.51)}
  28%{transform:translateY(-74px) rotateZ(3deg) rotateY(6deg) scale(.54)}
  47%{transform:translateY(-108px) rotateZ(9deg) rotateY(10deg) scale(.78)}
  66%{transform:translateY(-40px) rotateZ(-3deg) rotateY(1deg) scale(1.16)}
