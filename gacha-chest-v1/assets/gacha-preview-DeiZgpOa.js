@@ -1357,17 +1357,14 @@ ${vm}
  100%{opacity:1;transform:translateY(27px) rotateZ(-6deg) rotateY(-12deg) scale(.38)}
 }
 @keyframes gc-n-v113-emerge-from-chest{
- /* 0–4%: the lid's last pulse; 4–22%: explosive vertical extraction.
-    22–60%: card travels toward the lens, not an instant scale pop.
-    60–100%: smooth, natural camera arrival with a single subtle overshoot. */
  0%{opacity:1;transform:translateY(27px) rotateZ(-6deg) rotateY(-12deg) scale(.38)}
- 4%{transform:translateY(14px) rotateZ(-6deg) rotateY(-13deg) scale(.4)}
- 12%{transform:translateY(-92px) rotateZ(-1deg) rotateY(-24deg) scale(.55)}
- 22%{transform:translateY(-178px) rotateZ(8deg) rotateY(-16deg) scale(.74)}
- 37%{transform:translateY(-149px) rotateZ(11deg) rotateY(12deg) scale(.94)}
- 55%{transform:translateY(-81px) rotateZ(3deg) rotateY(6deg) scale(1.075)}
- 71%{transform:translateY(-33px) rotateZ(-2deg) rotateY(-3deg) scale(1.115)}
- 85%{transform:translateY(-11px) rotateZ(1deg) rotateY(0deg) scale(1.043)}
+ 5%{transform:translateY(0) rotateZ(-6deg) rotateY(-13deg) scale(.46)}
+ 15%{transform:translateY(-108px) rotateZ(-1deg) rotateY(-19deg) scale(.72)}
+ 23%{transform:translateY(-152px) rotateZ(4deg) rotateY(-15deg) scale(.98)}
+ 32%{transform:translateY(-127px) rotateZ(8deg) rotateY(9deg) scale(1.16)}
+ 44%{transform:translateY(-68px) rotateZ(4deg) rotateY(5deg) scale(1.21)}
+ 59%{transform:translateY(-28px) rotateZ(-2deg) rotateY(-2deg) scale(1.12)}
+ 76%{transform:translateY(-7px) rotateZ(1deg) rotateY(0deg) scale(1.035)}
  100%{opacity:1;transform:translateY(0) rotateZ(0deg) rotateY(0deg) scale(1)}
 }
 /* The parent shares exactly the closed-chest scene's positioning. Only the
@@ -1452,11 +1449,12 @@ ${vm}
  100%{opacity:1;transform:translate(-50%,-48%) scale(.84)}}
 @keyframes gc-n-v114-chest-recede{
  0%{opacity:1;transform:translate(-50%,-48%) scale(.84)}
- 12%{opacity:1;transform:translate(-50%,-46%) scale(.80)}
- 24%{opacity:.92;transform:translate(-50%,-42%) scale(.72)}
- 43%{opacity:.54;transform:translate(-50%,-35%) scale(.61)}
- 57%{opacity:0;transform:translate(-50%,-30%) scale(.53)}
- 100%{opacity:0;transform:translate(-50%,-30%) scale(.53)}}
+ 9%{opacity:1;transform:translate(-50%,-45%) scale(.76)}
+ 19%{opacity:.77;transform:translate(-50%,-38%) scale(.65)}
+ 29%{opacity:.30;transform:translate(-50%,-32%) scale(.56)}
+ 42%{opacity:0;transform:translate(-50%,-29%) scale(.50)}
+ 100%{opacity:0;transform:translate(-50%,-29%) scale(.50)}
+}
 @keyframes gc-n-v114-front-recoil{
  0%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
  40%{opacity:1;transform:translate(-50%,-50%) scale(.92)}
@@ -1464,11 +1462,12 @@ ${vm}
  100%{opacity:1;transform:translate(-50%,-48%) scale(.84)}}
 @keyframes gc-n-v114-front-recede{
  0%{opacity:1;transform:translate(-50%,-48%) scale(.84)}
- 12%{opacity:1;transform:translate(-50%,-46%) scale(.80)}
- 24%{opacity:.92;transform:translate(-50%,-42%) scale(.72)}
- 43%{opacity:.35;transform:translate(-50%,-35%) scale(.61)}
- 57%{opacity:0;transform:translate(-50%,-30%) scale(.53)}
- 100%{opacity:0;transform:translate(-50%,-30%) scale(.53)}}
+ 9%{opacity:1;transform:translate(-50%,-45%) scale(.76)}
+ 19%{opacity:.77;transform:translate(-50%,-38%) scale(.65)}
+ 29%{opacity:.30;transform:translate(-50%,-32%) scale(.56)}
+ 42%{opacity:0;transform:translate(-50%,-29%) scale(.50)}
+ 100%{opacity:0;transform:translate(-50%,-29%) scale(.50)}
+}
 /* Launched from the chest opening — sparks, circular shockwave and a tight
  * directional exhaust only; they remain behind the actual PlayerCard. */
 .jp-gc-n-ejection{position:absolute;inset:0;z-index:0;
