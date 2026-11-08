@@ -1228,7 +1228,7 @@ ${vm}
 
 /* N VFX v1.12: a SINGLE 10-second ambient composition mounted just once at
    'gather' and kept in the DOM through chest, launch, veil and settle.
-   Stage boundaries: 0%, 11% lid starts, 18% flight starts, 41% unveiling,
+   Stage boundaries: 0%, 16% lid starts, 23% flight starts, 42% unveiling,
    92% final settle, 100% result. One animation clock = no cut-to-black.
    Effects live BEHIND the one awarded PlayerCard and never duplicate it. */
 .jp-gc-n-flow-score{position:absolute;inset:0;z-index:2;pointer-events:none;
@@ -1260,68 +1260,68 @@ ${vm}
  animation:gc-n-v112-continuity-star 10s linear both}
 /* Continuous energy evolves rather than being restarted every React phase. */
 @keyframes gc-n-v112-continuity-wash{
-  0%{opacity:.02;transform:translate(-50%,-50%) scale(.55)}
-  10%{opacity:.12;transform:translate(-50%,-50%) scale(.77)}
-  13%{opacity:.26;transform:translate(-50%,-50%) scale(.85)}
-  18%{opacity:.48;transform:translate(-50%,-50%) scale(1.03)}
-  25%{opacity:.36;transform:translate(-50%,-56%) scale(1.12)}
-  39%{opacity:.18;transform:translate(-50%,-50%) scale(1.09)}
-  41%{opacity:.19;transform:translate(-50%,-50%) scale(1.04)}
-  62%{opacity:.26;transform:translate(-50%,-50%) scale(1.1)}
-  72%{opacity:.32;transform:translate(-50%,-50%) scale(1.15)}
-  90%{opacity:.13;transform:translate(-50%,-50%) scale(1.1)}
-  92%{opacity:.09;transform:translate(-50%,-50%) scale(1.05)}
-  100%{opacity:0;transform:translate(-50%,-50%) scale(.98)}}
+  0%{opacity:.02;transform:translate(-51%,-51%) scale(.55)}
+  15%{opacity:.12;transform:translate(-51%,-51%) scale(.77)}
+  18%{opacity:.26;transform:translate(-51%,-51%) scale(.85)}
+  23%{opacity:.48;transform:translate(-51%,-51%) scale(1.03)}
+  29%{opacity:.36;transform:translate(-51%,-57%) scale(1.12)}
+  40%{opacity:.18;transform:translate(-51%,-51%) scale(1.09)}
+  42%{opacity:.19;transform:translate(-51%,-51%) scale(1.04)}
+  63%{opacity:.26;transform:translate(-51%,-51%) scale(1.1)}
+  72%{opacity:.32;transform:translate(-51%,-51%) scale(1.15)}
+  90%{opacity:.13;transform:translate(-51%,-51%) scale(1.1)}
+  92%{opacity:.09;transform:translate(-51%,-51%) scale(1.05)}
+  100%{opacity:0;transform:translate(-51%,-51%) scale(.98)}}
 @keyframes gc-n-v112-continuity-ring{
-  0%{opacity:0;transform:translate(-50%,-50%) rotate(0) scale(.4)}
-  10%{opacity:.22}
-  17%{opacity:.45;transform:translate(-50%,-50%) rotate(48deg) scale(.8)}
-  25%{opacity:.4;transform:translate(-50%,-50%) rotate(85deg) scale(1.05)}
-  39%{opacity:.12;transform:translate(-50%,-50%) rotate(140deg) scale(1.2)}
-  41%{opacity:.11;transform:translate(-50%,-50%) rotate(150deg) scale(1.18)}
-  60%{opacity:.28;transform:translate(-50%,-50%) rotate(190deg) scale(1.15)}
-  71%{opacity:.44;transform:translate(-50%,-50%) rotate(260deg) scale(1.17)}
-  90%{opacity:.10;transform:translate(-50%,-50%) rotate(310deg) scale(1.1)}
-  100%{opacity:0;transform:translate(-50%,-50%) rotate(340deg) scale(.98)}}
+  0%{opacity:0;transform:translate(-51%,-51%) rotate(0) scale(.4)}
+  15%{opacity:.22}
+  22%{opacity:.45;transform:translate(-51%,-51%) rotate(48deg) scale(.8)}
+  29%{opacity:.4;transform:translate(-51%,-51%) rotate(85deg) scale(1.05)}
+  40%{opacity:.12;transform:translate(-51%,-51%) rotate(140deg) scale(1.2)}
+  42%{opacity:.11;transform:translate(-51%,-51%) rotate(150deg) scale(1.18)}
+  61%{opacity:.28;transform:translate(-51%,-51%) rotate(190deg) scale(1.15)}
+  71%{opacity:.44;transform:translate(-51%,-51%) rotate(260deg) scale(1.17)}
+  90%{opacity:.10;transform:translate(-51%,-51%) rotate(310deg) scale(1.1)}
+  100%{opacity:0;transform:translate(-51%,-51%) rotate(340deg) scale(.98)}}
 @keyframes gc-n-v112-continuity-inner{
-  0%{opacity:0;transform:translate(-50%,-50%) rotate(0deg) scale(.35)}
-  10%{opacity:.21}
-  18%{opacity:.39;transform:translate(-50%,-50%) rotate(-45deg) scale(.85)}
-  32%{opacity:.14;transform:translate(-50%,-50%) rotate(-96deg) scale(1.1)}
-  41%{opacity:.10;transform:translate(-50%,-50%) rotate(-128deg) scale(1)}
-  65%{opacity:.28;transform:translate(-50%,-50%) rotate(-205deg) scale(1.08)}
-  76%{opacity:.24;transform:translate(-50%,-50%) rotate(-258deg) scale(1.15)}
-  92%{opacity:.06;transform:translate(-50%,-50%) rotate(-320deg) scale(1.02)}
-  100%{opacity:0;transform:translate(-50%,-50%) rotate(-345deg) scale(.98)}}
+  0%{opacity:0;transform:translate(-51%,-51%) rotate(0deg) scale(.35)}
+  15%{opacity:.21}
+  23%{opacity:.39;transform:translate(-51%,-51%) rotate(-45deg) scale(.85)}
+  35%{opacity:.14;transform:translate(-51%,-51%) rotate(-96deg) scale(1.1)}
+  42%{opacity:.10;transform:translate(-51%,-51%) rotate(-128deg) scale(1)}
+  66%{opacity:.28;transform:translate(-51%,-51%) rotate(-205deg) scale(1.08)}
+  76%{opacity:.24;transform:translate(-51%,-51%) rotate(-258deg) scale(1.15)}
+  92%{opacity:.06;transform:translate(-51%,-51%) rotate(-320deg) scale(1.02)}
+  100%{opacity:0;transform:translate(-51%,-51%) rotate(-345deg) scale(.98)}}
 @keyframes gc-n-v112-continuity-column{
-  0%,9%{opacity:0;transform:translate(-50%,-50%) scaleX(.12) scaleY(.35)}
-  16%{opacity:.35}
-  18%{opacity:.65;transform:translate(-50%,-50%) scaleX(.78) scaleY(.8)}
-  27%{opacity:.46;transform:translate(-50%,-58%) scaleX(.55) scaleY(1.08)}
-  39%{opacity:.07;transform:translate(-50%,-65%) scaleX(.4) scaleY(1.13)}
-  41%{opacity:.03}
-  58%{opacity:.04;transform:translate(-50%,-50%) scaleX(.35) scaleY(.85)}
-  66%{opacity:.19;transform:translate(-50%,-50%) scaleX(.58) scaleY(.98)}
+  0%,13%{opacity:0;transform:translate(-51%,-51%) scaleX(.12) scaleY(.35)}
+  21%{opacity:.35}
+  23%{opacity:.65;transform:translate(-51%,-51%) scaleX(.78) scaleY(.8)}
+  30%{opacity:.46;transform:translate(-51%,-59%) scaleX(.55) scaleY(1.08)}
+  40%{opacity:.07;transform:translate(-51%,-66%) scaleX(.4) scaleY(1.13)}
+  42%{opacity:.03}
+  59%{opacity:.04;transform:translate(-51%,-51%) scaleX(.35) scaleY(.85)}
+  67%{opacity:.19;transform:translate(-51%,-51%) scaleX(.58) scaleY(.98)}
   77%{opacity:.07}
-  92%,100%{opacity:0;transform:translate(-50%,-50%) scaleX(.2) scaleY(1)}}
+  92%,100%{opacity:0;transform:translate(-51%,-51%) scaleX(.2) scaleY(1)}}
 @keyframes gc-n-v112-continuity-lens{
-  0%,9%{opacity:0;transform:translate(-50%,-50%) scaleX(.12)}
-  11%{opacity:.16}
-  15%{opacity:.37;transform:translate(-50%,-50%) scaleX(.68)}
-  18%{opacity:.46;transform:translate(-50%,-50%) scaleX(.98)}
-  26%{opacity:.24}
-  40%{opacity:0;transform:translate(-50%,-50%) scaleX(1.3)}
-  41%,59%{opacity:0;transform:translate(-50%,-50%) scaleX(.65)}
-  66%{opacity:.49;transform:translate(-50%,-50%) scaleX(.94)}
+  0%,13%{opacity:0;transform:translate(-51%,-51%) scaleX(.12)}
+  16%{opacity:.16}
+  20%{opacity:.37;transform:translate(-51%,-51%) scaleX(.68)}
+  23%{opacity:.46;transform:translate(-51%,-51%) scaleX(.98)}
+  30%{opacity:.24}
+  41%{opacity:0;transform:translate(-51%,-51%) scaleX(1.3)}
+  42%,60%{opacity:0;transform:translate(-51%,-51%) scaleX(.65)}
+  67%{opacity:.49;transform:translate(-51%,-51%) scaleX(.94)}
   71%{opacity:.30}
-  79%,100%{opacity:0;transform:translate(-50%,-50%) scaleX(1.2)}}
+  79%,100%{opacity:0;transform:translate(-51%,-51%) scaleX(1.2)}}
 @keyframes gc-n-v112-continuity-star{
   0%{opacity:0;transform:rotate(var(--n-flow-angle)) translateY(var(--n-flow-orbit)) scale(.3)}
-  11%{opacity:.14}
-  18%{opacity:.55;transform:rotate(var(--n-flow-angle)) translateY(var(--n-flow-orbit)) scale(.85)}
-  31%{opacity:.35;transform:rotate(var(--n-flow-angle)) translateY(-175px) scale(.7)}
-  41%{opacity:.15;transform:rotate(var(--n-flow-angle)) translateY(-158px) scale(.65)}
-  60%{opacity:.38;transform:rotate(var(--n-flow-angle)) translateY(-152px) scale(.8)}
+  16%{opacity:.14}
+  23%{opacity:.55;transform:rotate(var(--n-flow-angle)) translateY(var(--n-flow-orbit)) scale(.85)}
+  34%{opacity:.35;transform:rotate(var(--n-flow-angle)) translateY(-175px) scale(.7)}
+  42%{opacity:.15;transform:rotate(var(--n-flow-angle)) translateY(-158px) scale(.65)}
+  61%{opacity:.38;transform:rotate(var(--n-flow-angle)) translateY(-152px) scale(.8)}
   69%{opacity:.85;transform:rotate(var(--n-flow-angle)) translateY(-181px) scale(1.35)}
   80%{opacity:.34}
   92%{opacity:.07;transform:rotate(var(--n-flow-angle)) translateY(-198px) scale(.6)}
