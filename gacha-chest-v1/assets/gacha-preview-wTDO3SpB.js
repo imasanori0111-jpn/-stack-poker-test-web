@@ -2156,6 +2156,109 @@ ${lf}
  }
 }
 
+/* v1.51: STONE/CARD GEOMETRY & FINISH. The visual branches and phase
+ * timing stay fixed. Reuse the exact 47% light focal point, common 63:88
+ * plate dimensions and stable centre for rise/strike/veil/settle.
+ * --gc-poststone-accent-rgb is deliberately neutral: rarity-specific
+ * colour/effect mapping is a separate future change. */
+.jp-gc-sealed-scene{
+ --gc-poststone-accent-rgb:174,219,255;
+ --gc-poststone-stage-width:min(55vw,245px,42dvh);
+ width:var(--gc-poststone-stage-width);
+ left:50%;top:47%;
+ aspect-ratio:63/88;
+ transform:translate(-50%,-50%);
+ transform-origin:50% 50%;
+ perspective:1050px;
+ -webkit-perspective:1050px;
+}
+.jp-gc-sealed-scene .jp-gc-tablet{
+ transform-origin:50% 50%;
+ -webkit-transform-origin:50% 50%;
+ backface-visibility:visible;
+}
+.jp-gc-poststone-back .jp-gc-sealed-card,
+.jp-gc-poststone-back .jp-gc-poststone-flipper{
+ box-sizing:border-box;width:100%;height:100%;
+ transform-origin:50% 50%;
+ -webkit-transform-origin:50% 50%;
+}
+.jp-gc-poststone-back .jp-gc-poststone-card-front,
+.jp-gc-poststone-back .jp-gc-poststone-card-reverse{
+ box-sizing:border-box;
+ width:100%;height:100%;
+ -webkit-backface-visibility:hidden;
+ backface-visibility:hidden
+}
+.jp-gc-poststone-back .jp-gc-poststone-card-front>.jp-pcard{
+ width:100%!important;height:100%!important;
+ aspect-ratio:63/88!important;
+ margin:0!important;box-shadow:none!important;
+ border-radius:5px!important
+}
+/* Physically continuous after shatter: original stone footprint -> back
+ * card at 1x -> gentle push in -> 1.08x settle. No horizontal travel,
+ * no abrupt overzoom and no source-image replacement. */
+.jp-gc-p-veil .jp-gc-poststone-back .jp-gc-tablet{
+ animation:gc-v151-poststone-continuous 5.1s cubic-bezier(.2,.75,.23,1) both!important
+}
+@keyframes gc-v151-poststone-continuous{
+ 0%{transform:translateY(-4px) rotateY(0deg) scale(1)}
+ 40%{transform:translateY(-4px) rotateY(0deg) scale(1.055)}
+ 100%{transform:translateY(-4px) rotateY(0deg) scale(1.08)}
+}
+/* A modest directional reflection is ON THE BACK ONLY. It vanishes before
+ * the front becomes readable and never tints the existing face-up route. */
+.jp-gc-poststone-back .jp-gc-poststone-card-reverse{
+ box-shadow:inset 0 0 0 3px #101a31,
+   inset 0 0 0 5px rgba(var(--gc-poststone-accent-rgb),.65),
+   inset 0 0 32px #6a9ecb65,0 0 19px 3px rgba(var(--gc-poststone-accent-rgb),.42);
+}
+.jp-gc-poststone-back .jp-gc-poststone-card-reverse::after{
+ content:"";position:absolute;inset:-12%;pointer-events:none;z-index:1;
+ background:linear-gradient(110deg,transparent 21%,#edfcff04 34%,
+   #fbffff5e 49%,#fff9e67a 50%,#c5e9ff29 56%,transparent 69%);
+ opacity:0;transform:translateX(-115%);
+ mix-blend-mode:screen;
+}
+.jp-gc-p-veil .jp-gc-poststone-back .jp-gc-poststone-card-reverse::after{
+ animation:gc-v151-back-metal-glint 5.1s ease-out both
+}
+@keyframes gc-v151-back-metal-glint{
+ 0%,7%{opacity:0;transform:translateX(-115%)}
+ 14%{opacity:.7;transform:translateX(-38%)}
+ 22%{opacity:.36;transform:translateX(65%)}
+ 29%,100%{opacity:0;transform:translateX(125%)}
+}
+.jp-gc-p-veil .jp-gc-poststone-back .jp-gc-card-edge-glow{
+ animation:gc-v151-card-rim-glisten 5.1s ease-out both
+}
+@keyframes gc-v151-card-rim-glisten{
+ 0%{opacity:.12;filter:brightness(1)}
+ 22%{opacity:.52;filter:brightness(1.4)}
+ 42%{opacity:.38;filter:brightness(1.1)}
+ 100%{opacity:.1;filter:brightness(1)}
+}
+.jp-gc-p-settle .jp-gc-poststone-back .jp-gc-card-edge-glow{
+ animation:none!important;opacity:.10
+}
+@media(max-height:610px){
+ .jp-gc-sealed-scene{
+  --gc-poststone-stage-width:min(52vw,205px,38dvh)
+ }
+}
+@media(prefers-reduced-motion:reduce){
+ .jp-gc-p-veil .jp-gc-poststone-back .jp-gc-tablet{
+  animation:none!important;transform:translateY(-4px) rotateY(0deg) scale(1.08)
+ }
+ .jp-gc-poststone-back .jp-gc-poststone-card-reverse::after{
+  animation:none!important;opacity:0!important
+ }
+ .jp-gc-p-veil .jp-gc-poststone-back .jp-gc-card-edge-glow{
+  animation:none!important
+ }
+}
+
 /* N/R+ UNIFIED MYSTERY v1.44
  * gather(1.6)+chest(.7)+flight(1.9)+mystery(.95)=5.15 seconds.
  * All rarities share ONE reveal-independent animation and recorded sound
