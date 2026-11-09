@@ -1367,23 +1367,29 @@ ${Bm}
 .jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-card-shadow{
  animation:gc-n-v113-emerge-from-chest 1.9s linear both;
  transform-origin:50% 50%;will-change:transform,opacity}
+/* v1.32: reveal the actual card back while the chest lip still exists.
+   At 0.27–0.7s of opening the top edge passes the rim visibly.
+   End pose EXACTLY matches the first frame of the launch animation. */
 @keyframes gc-n-v113-inside-chest{
- 0%,43%{opacity:0;transform:translateY(125px) rotateZ(-9deg) rotateY(-20deg) scale(.12)}
- 69%{opacity:1;transform:translateY(101px) rotateZ(-7deg) rotateY(-17deg) scale(.17)}
- 100%{opacity:1;transform:translateY(27px) rotateZ(-6deg) rotateY(-12deg) scale(.38)}
+ 0%,23%{opacity:0;transform:translateY(95px) rotateZ(-7deg) rotateY(-12deg) scale(.20)}
+ 38%{opacity:.80;transform:translateY(66px) rotateZ(-7deg) rotateY(-12deg) scale(.29)}
+ 59%{opacity:1;transform:translateY(42px) rotateZ(-7deg) rotateY(-12deg) scale(.38)}
+ 79%{opacity:1;transform:translateY(20px) rotateZ(-6deg) rotateY(-12deg) scale(.43)}
+ 100%{opacity:1;transform:translateY(10px) rotateZ(-6deg) rotateY(-12deg) scale(.46)}
 }
-/* v1.23: one continuous trajectory. The sharp initial vertical launch
-   hands off to a camera-facing push; progressive braking removes the
-   downward bounce that made the card appear to jump between positions. */
+/* v1.32: chest aperture -> visibly rising physical card -> camera push.
+   The card remains half in the box for the first 0.2s of launch, and only
+   clears the front lip as the shrinking chest moves away. No pop-in or clone. */
 @keyframes gc-n-v113-emerge-from-chest{
- 0%{opacity:1;transform:translateY(27px) rotateZ(-6deg) rotateY(-12deg) scale(.38)}
- 5%{transform:translateY(0) rotateZ(-6deg) rotateY(-13deg) scale(.46)}
- 15%{transform:translateY(-108px) rotateZ(-1deg) rotateY(-19deg) scale(.72)}
- 23%{transform:translateY(-152px) rotateZ(4deg) rotateY(-15deg) scale(.98)}
- 32%{transform:translateY(-139px) rotateZ(7deg) rotateY(5deg) scale(1.13)}
- 44%{transform:translateY(-93px) rotateZ(4deg) rotateY(3deg) scale(1.18)}
- 59%{transform:translateY(-39px) rotateZ(-1deg) rotateY(-1deg) scale(1.10)}
- 76%{transform:translateY(-9px) rotateZ(0deg) rotateY(0deg) scale(1.03)}
+ 0%{opacity:1;transform:translateY(10px) rotateZ(-6deg) rotateY(-12deg) scale(.46)}
+ 6%{transform:translateY(-11px) rotateZ(-6deg) rotateY(-13deg) scale(.50)}
+ 13%{transform:translateY(-55px) rotateZ(-4deg) rotateY(-16deg) scale(.62)}
+ 22%{transform:translateY(-124px) rotateZ(-1deg) rotateY(-17deg) scale(.88)}
+ 30%{transform:translateY(-151px) rotateZ(4deg) rotateY(-13deg) scale(1.04)}
+ 40%{transform:translateY(-117px) rotateZ(6deg) rotateY(4deg) scale(1.15)}
+ 52%{transform:translateY(-68px) rotateZ(3deg) rotateY(3deg) scale(1.13)}
+ 66%{transform:translateY(-28px) rotateZ(-1deg) rotateY(-1deg) scale(1.07)}
+ 82%{transform:translateY(-6px) rotateZ(0deg) rotateY(0deg) scale(1.02)}
  100%{opacity:1;transform:translateY(0) rotateZ(0deg) rotateY(0deg) scale(1)}
 }
 /* The parent shares exactly the closed-chest scene's positioning. Only the
@@ -1709,10 +1715,11 @@ ${Bm}
  clip-path:inset(0 0 0 0);
  -webkit-clip-path:inset(0 0 0 0)
 }
+/* The chest-floor clip opens as the actual card rises through the mouth. */
 @keyframes gc-n-v119-release-from-chest{
- 0%,8%{clip-path:inset(0 0 43% 0)}
- 16%{clip-path:inset(0 0 24% 0)}
- 25%,100%{clip-path:inset(0 0 0 0)}
+ 0%,6%{clip-path:inset(0 0 43% 0)}
+ 13%{clip-path:inset(0 0 24% 0)}
+ 22%,100%{clip-path:inset(0 0 0 0)}
 }
 @media(prefers-reduced-motion:reduce){
  .jp-gc-n-cinematic .jp-gc-veil-scene{
@@ -1730,7 +1737,14 @@ ${Bm}
  mix-blend-mode:screen;transform:scale(1.04);
 }
 .jp-gc-n-cinematic.jp-gc-p-chest .jp-gc-card-shadow::after{
- opacity:.78;
+ opacity:.40;
+}
+/* A narrow gilded back edge stays visible as the one real card rises.
+   Avoid flooding the whole card with white during its emergence. */
+.jp-gc-n-cinematic.jp-gc-p-chest .jp-gc-direct-card-back,
+.jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-direct-card-back{
+ box-shadow:inset 0 0 0 3px #101c34,inset 0 0 0 7px #d5a65573,
+ inset 0 0 24px #000c,0 0 10px #fff6d878,0 0 23px #83c4ff65;
 }
 .jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-card-shadow::after{
  animation:gc-n-v124-shroud-launch 1.9s linear both;
@@ -1743,10 +1757,10 @@ ${Bm}
    brightness surge when the flight settles. Preserve exact .66 handoff
    into the 5s reveal phase (and the same single live card). */
 @keyframes gc-n-v124-shroud-launch{
- 0%{opacity:.78;transform:scale(.97)}
- 9%{opacity:.92;transform:scale(1.04)}
- 16%{opacity:.98;transform:scale(1.08)}
- 26%{opacity:.93;transform:scale(1.12)}
+ 0%{opacity:.40;transform:scale(.97)}
+ 9%{opacity:.50;transform:scale(1.00)}
+ 16%{opacity:.70;transform:scale(1.08)}
+ 26%{opacity:.86;transform:scale(1.12)}
  42%{opacity:.83;transform:scale(1.11)}
  62%{opacity:.73;transform:scale(1.08)}
  82%{opacity:.68;transform:scale(1.05)}
