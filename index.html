@@ -14,6 +14,29 @@
     <meta name="description" content="スタックポーカーは、スマホのブラウザで遊べる完全無料のテキサスホールデム。お金はかけず、ゲームの中の SP(スタックポイント)で、ほかのプレイヤーと6人テーブルで対戦します。" />
     <title>スタックポーカー | 完全無料のテキサスホールデム</title>
     <style>html,body,#root{margin:0;height:100%;background:#0b1230}</style>
+    <!-- TEST SITE ONLY: force the title shell to use the mobile viewport.
+         This page sometimes rendered as a ~55 CSS-px left strip in in-app
+         browsers. No game logic, credentials, or main production is changed. -->
+    <style id="test-title-mobile-width-guard">
+      html,body{width:100%;max-width:100%;min-width:0;overflow-x:hidden}
+      #root{display:block;width:100%;min-width:0;max-width:100%;margin:0 auto}
+      #root .jp-root.jp-root-title{
+        position:relative!important;
+        width:min(100vw,480px)!important;
+        max-width:min(100vw,480px)!important;
+        min-width:0!important;
+        margin-left:auto!important;
+        margin-right:auto!important;
+        transform:none!important;
+        box-sizing:border-box!important
+      }
+      #root .jp-root.jp-root-title>.jp-title{
+        width:100%!important;min-width:0!important;max-width:100%!important;
+        box-sizing:border-box!important;overflow-x:hidden!important
+      }
+      #root .jp-title-actions{max-width:min(320px,calc(100vw - 24px));box-sizing:border-box}
+      #root .jp-title-name,#root .jp-terms-links{max-width:100%;overflow-wrap:anywhere}
+    </style>
     <script type="module" crossorigin src="/-stack-poker-test-web/assets/index-XKa2u6o3.js"></script>
     <link rel="modulepreload" crossorigin href="/-stack-poker-test-web/assets/gs2-DzdGfgiX.js">
     <link rel="modulepreload" crossorigin href="/-stack-poker-test-web/assets/index-CIuxlSRZ.js">
