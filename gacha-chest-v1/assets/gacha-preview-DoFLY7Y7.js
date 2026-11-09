@@ -1804,7 +1804,7 @@ ${Fm}
 @keyframes gc-n-chest-breathe{
  0%{filter:drop-shadow(0 0 4px #a8d6ff30);transform:translate(-50%,-50%) scale(.985)}
  72%{filter:drop-shadow(0 0 18px #e7f6ff99);transform:translate(-50%,-50%) scale(1.025)}
- 100%{filter:drop-shadow(0 0 30px #fff4d6c0);transform:translate(-50%,-50%) scale(1.035)}
+ 100%{filter:drop-shadow(0 0 30px #fff4d6c0);transform:translate(-50%,-50%) scale(.94)}
 }
 .jp-gc-n-cinematic.jp-gc-p-chest .jp-gc-n-mouth-emission{
  filter:brightness(1.35) drop-shadow(0 0 22px #fff4d6);
