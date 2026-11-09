@@ -968,19 +968,26 @@ ${Bm}
 .jp-gc-n-cinematic.jp-gc-p-veil .jp-gc-n-flash-stage,
 .jp-gc-n-cinematic.jp-gc-p-settle .jp-gc-n-flash-stage{display:none}
 
+/* v1.31: bright optical hit at 1.6s + 23% of 0.7s (=1.761s),
+   exactly around the archived chest-open MP3 accent (1.75s). Do not leave
+   a persistent opaque wash over the physical chest or the emerging card. */
 @keyframes gc-n-v19-open-core{
   0%,12%{opacity:0;transform:translate(-50%,-50%) scale(.12)}
-  23%{opacity:.88;transform:translate(-50%,-50%) scale(.55)}
-  39%{opacity:.65;transform:translate(-50%,-50%) scale(.86)}
-  100%{opacity:0;transform:translate(-50%,-50%) scale(1.35)}}
+  19%{opacity:.47;transform:translate(-50%,-50%) scale(.33)}
+  23%{opacity:.97;transform:translate(-50%,-50%) scale(.60)}
+  32%{opacity:.63;transform:translate(-50%,-50%) scale(.86)}
+  53%{opacity:.15;transform:translate(-50%,-50%) scale(1.13)}
+  76%,100%{opacity:0;transform:translate(-50%,-50%) scale(1.35)}}
 @keyframes gc-n-v19-open-halo{
   0%,16%{opacity:0;transform:translate(-50%,-50%) rotate(-20deg) scale(.3)}
   28%{opacity:.80}
   100%{opacity:0;transform:translate(-50%,-50%) rotate(90deg) scale(1.5)}}
 @keyframes gc-n-v19-open-cross{
   0%,13%{opacity:0;transform:translate(-50%,-50%) scaleX(.12)}
-  25%{opacity:.92;transform:translate(-50%,-50%) scaleX(1)}
-  100%{opacity:0;transform:translate(-50%,-50%) scaleX(1.7)}}
+  23%{opacity:.95;transform:translate(-50%,-50%) scaleX(.96)}
+  31%{opacity:.53;transform:translate(-50%,-50%) scaleX(1.2)}
+  62%{opacity:.07;transform:translate(-50%,-50%) scaleX(1.62)}
+  80%,100%{opacity:0;transform:translate(-50%,-50%) scaleX(1.7)}}
 @keyframes gc-n-v19-open-ring{
   0%,12%{opacity:0;transform:translate(-50%,-50%) scale(.15)}
   26%{opacity:.9}
@@ -1028,16 +1035,22 @@ ${Bm}
 .jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-n-reveal-effects,
 .jp-gc-n-cinematic.jp-gc-p-settle .jp-gc-n-reveal-effects{display:none}
 .jp-gc-n-cinematic.jp-gc-p-settle .jp-gc-n-front{filter:none}
+/* v1.31: card display / shakiin / reveal peak at 50% of the five-second
+   veil phase (=6.7s in N). Outer light clears before the result settles. */
 @keyframes gc-n-v19-reveal-aura{
   0%,23%{opacity:.05;transform:translate(-50%,-50%) scale(.7)}
-  48%{opacity:.35}
-  58%{opacity:.54;transform:translate(-50%,-50%) scale(1.08)}
-  100%{opacity:0;transform:translate(-50%,-50%) scale(1.32)}}
+  43%{opacity:.29;transform:translate(-50%,-50%) scale(.87)}
+  51%{opacity:.54;transform:translate(-50%,-50%) scale(1.00)}
+  62%{opacity:.32;transform:translate(-50%,-50%) scale(1.13)}
+  76%{opacity:.06;transform:translate(-50%,-50%) scale(1.25)}
+  86%,100%{opacity:0;transform:translate(-50%,-50%) scale(1.32)}}
 @keyframes gc-n-v19-reveal-ring{
   0%,36%{opacity:0;transform:translate(-50%,-50%) scale(.45)}
-  50%{opacity:.95;transform:translate(-50%,-50%) scale(.94)}
-  68%{opacity:.25}
-  100%{opacity:0;transform:translate(-50%,-50%) scale(1.7)}}
+  48%{opacity:.55;transform:translate(-50%,-50%) scale(.72)}
+  50%{opacity:.98;transform:translate(-50%,-50%) scale(.94)}
+  57%{opacity:.62;transform:translate(-50%,-50%) scale(1.15)}
+  67%{opacity:.17;transform:translate(-50%,-50%) scale(1.48)}
+  77%,100%{opacity:0;transform:translate(-50%,-50%) scale(1.7)}}
 @keyframes gc-n-v19-reveal-beam{
   0%,45%{opacity:0;transform:translate(-50%,-50%) scaleX(.15)}
   50%{opacity:.96;transform:translate(-50%,-50%) scaleX(1.02)}
@@ -1046,14 +1059,16 @@ ${Bm}
   66%,100%{opacity:0;transform:translate(-50%,-50%) scaleX(1.3)}}
 @keyframes gc-n-v19-reveal-halo{
   0%,29%{opacity:.03;transform:translate(-50%,-50%) rotate(-60deg) scale(.6)}
-  48%{opacity:.58}
-  69%{opacity:.4;transform:translate(-50%,-50%) rotate(40deg) scale(1.16)}
-  100%{opacity:0;transform:translate(-50%,-50%) rotate(104deg) scale(1.4)}}
+  45%{opacity:.42;transform:translate(-50%,-50%) rotate(-20deg) scale(.86)}
+  51%{opacity:.69;transform:translate(-50%,-50%) rotate(1deg) scale(1.0)}
+  65%{opacity:.34;transform:translate(-50%,-50%) rotate(35deg) scale(1.16)}
+  81%,100%{opacity:0;transform:translate(-50%,-50%) rotate(104deg) scale(1.4)}}
 @keyframes gc-n-v19-star{
   0%,39%{opacity:0;transform:rotate(var(--n-star-angle)) translateY(-120px) scale(.4)}
-  49%{opacity:.9}
-  58%{opacity:.72;transform:rotate(var(--n-star-angle)) translateY(-165px) scale(1.5)}
-  85%,100%{opacity:0;transform:rotate(var(--n-star-angle)) translateY(-190px) scale(.55)}}
+  48%{opacity:.50;transform:rotate(var(--n-star-angle)) translateY(-135px) scale(.72)}
+  52%{opacity:.96;transform:rotate(var(--n-star-angle)) translateY(-151px) scale(1.35)}
+  61%{opacity:.30;transform:rotate(var(--n-star-angle)) translateY(-171px) scale(1.05)}
+  73%,100%{opacity:0;transform:rotate(var(--n-star-angle)) translateY(-190px) scale(.55)}}
 @media(max-width:420px){
  .jp-gc-n-opening-sparks i:nth-child(n+9){display:none}
  .jp-gc-n-reveal-effects i:nth-of-type(n+6){display:none}
