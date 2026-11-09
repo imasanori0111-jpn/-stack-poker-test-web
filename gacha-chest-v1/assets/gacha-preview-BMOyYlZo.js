@@ -1370,26 +1370,30 @@ ${Bm}
 /* v1.32: reveal the actual card back while the chest lip still exists.
    At 0.27–0.7s of opening the top edge passes the rim visibly.
    End pose EXACTLY matches the first frame of the launch animation. */
+/* v1.34: the actual single card begins rising AND zooming with the lid.
+   First visible at .16s after chest opens; camera push is underway while
+   the chest shrinks behind it. Final pose matches launch frame 0 exactly. */
 @keyframes gc-n-v113-inside-chest{
- 0%,23%{opacity:0;transform:translateY(95px) rotateZ(-7deg) rotateY(-12deg) scale(.20)}
- 38%{opacity:.80;transform:translateY(66px) rotateZ(-7deg) rotateY(-12deg) scale(.29)}
- 59%{opacity:1;transform:translateY(42px) rotateZ(-7deg) rotateY(-12deg) scale(.38)}
- 79%{opacity:1;transform:translateY(20px) rotateZ(-6deg) rotateY(-12deg) scale(.43)}
- 100%{opacity:1;transform:translateY(10px) rotateZ(-6deg) rotateY(-12deg) scale(.46)}
+ 0%,22%{opacity:0;transform:translateY(95px) rotateZ(-7deg) rotateY(-12deg) scale(.20)}
+ 27%{opacity:.62;transform:translateY(84px) rotateZ(-7deg) rotateY(-12deg) scale(.27)}
+ 40%{opacity:1;transform:translateY(55px) rotateZ(-7deg) rotateY(-12deg) scale(.40)}
+ 55%{opacity:1;transform:translateY(12px) rotateZ(-6deg) rotateY(-13deg) scale(.59)}
+ 72%{opacity:1;transform:translateY(-28px) rotateZ(-6deg) rotateY(-14deg) scale(.75)}
+ 88%{opacity:1;transform:translateY(-48px) rotateZ(-6deg) rotateY(-13deg) scale(.83)}
+ 100%{opacity:1;transform:translateY(-55px) rotateZ(-6deg) rotateY(-12deg) scale(.88)}
 }
-/* v1.32: chest aperture -> visibly rising physical card -> camera push.
-   The card remains half in the box for the first 0.2s of launch, and only
-   clears the front lip as the shrinking chest moves away. No pop-in or clone. */
+/* v1.34: the card has ALREADY emerged and scaled up during chest opening.
+   Continue one unbroken toward-camera trajectory; do not restart from a
+   tiny card or wait for the chest to vanish before zooming. */
 @keyframes gc-n-v113-emerge-from-chest{
- 0%{opacity:1;transform:translateY(10px) rotateZ(-6deg) rotateY(-12deg) scale(.46)}
- 6%{transform:translateY(-11px) rotateZ(-6deg) rotateY(-13deg) scale(.50)}
- 13%{transform:translateY(-55px) rotateZ(-4deg) rotateY(-16deg) scale(.62)}
- 22%{transform:translateY(-124px) rotateZ(-1deg) rotateY(-17deg) scale(.88)}
- 30%{transform:translateY(-151px) rotateZ(4deg) rotateY(-13deg) scale(1.04)}
- 40%{transform:translateY(-117px) rotateZ(6deg) rotateY(4deg) scale(1.15)}
- 52%{transform:translateY(-68px) rotateZ(3deg) rotateY(3deg) scale(1.13)}
- 66%{transform:translateY(-28px) rotateZ(-1deg) rotateY(-1deg) scale(1.07)}
- 82%{transform:translateY(-6px) rotateZ(0deg) rotateY(0deg) scale(1.02)}
+ 0%{opacity:1;transform:translateY(-55px) rotateZ(-6deg) rotateY(-12deg) scale(.88)}
+ 8%{transform:translateY(-96px) rotateZ(-4deg) rotateY(-14deg) scale(1.00)}
+ 17%{transform:translateY(-142px) rotateZ(-1deg) rotateY(-15deg) scale(1.12)}
+ 29%{transform:translateY(-151px) rotateZ(3deg) rotateY(-9deg) scale(1.16)}
+ 41%{transform:translateY(-110px) rotateZ(5deg) rotateY(3deg) scale(1.16)}
+ 55%{transform:translateY(-60px) rotateZ(2deg) rotateY(2deg) scale(1.11)}
+ 70%{transform:translateY(-23px) rotateZ(-1deg) rotateY(-1deg) scale(1.06)}
+ 84%{transform:translateY(-5px) rotateZ(0deg) rotateY(0deg) scale(1.02)}
  100%{opacity:1;transform:translateY(0) rotateZ(0deg) rotateY(0deg) scale(1)}
 }
 /* The parent shares exactly the closed-chest scene's positioning. Only the
@@ -1467,33 +1471,32 @@ ${Bm}
   animation:gc-n-v114-front-recoil .7s linear both}
 .jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-n-chest-front{
   animation:gc-n-v114-front-recede 1.9s linear both}
+/* v1.34: the lid opens until ~.30s, then the box recedes on a smooth
+   ease-out and is fully invisible ~.62s into the .7s opening segment.
+   The card grows during these SAME frames. */
 @keyframes gc-n-v114-chest-recoil{
  0%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
- 40%{opacity:1;transform:translate(-50%,-50%) scale(.92)}
- 70%{opacity:1;transform:translate(-50%,-49%) scale(.87)}
- 100%{opacity:1;transform:translate(-50%,-48%) scale(.84)}}
+ 23%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
+ 43%{opacity:1;transform:translate(-50%,-50%) scale(.90)}
+ 55%{opacity:.88;transform:translate(-50%,-47%) scale(.75)}
+ 69%{opacity:.58;transform:translate(-50%,-42%) scale(.57)}
+ 82%{opacity:.14;transform:translate(-50%,-34%) scale(.38)}
+ 90%,100%{opacity:0;transform:translate(-50%,-30%) scale(.30)}}
+/* Chest was already dismissed during opening. Preserve the same pose
+   across the phase handoff: never bring the old chest back for one frame. */
 @keyframes gc-n-v114-chest-recede{
- 0%{opacity:1;transform:translate(-50%,-48%) scale(.84)}
- 4%{opacity:.94;transform:translate(-50%,-46%) scale(.72)}
- 9%{opacity:.78;transform:translate(-50%,-41%) scale(.57)}
- 14%{opacity:.48;transform:translate(-50%,-35%) scale(.44)}
- 20%{opacity:.12;transform:translate(-50%,-29%) scale(.32)}
- 25%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
- 100%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
+ 0%,100%{opacity:0;transform:translate(-50%,-30%) scale(.30)}
 }
 @keyframes gc-n-v114-front-recoil{
  0%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
- 40%{opacity:1;transform:translate(-50%,-50%) scale(.92)}
- 70%{opacity:1;transform:translate(-50%,-49%) scale(.87)}
- 100%{opacity:1;transform:translate(-50%,-48%) scale(.84)}}
+ 23%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
+ 43%{opacity:1;transform:translate(-50%,-50%) scale(.90)}
+ 55%{opacity:.88;transform:translate(-50%,-47%) scale(.75)}
+ 69%{opacity:.58;transform:translate(-50%,-42%) scale(.57)}
+ 82%{opacity:.14;transform:translate(-50%,-34%) scale(.38)}
+ 90%,100%{opacity:0;transform:translate(-50%,-30%) scale(.30)}}
 @keyframes gc-n-v114-front-recede{
- 0%{opacity:1;transform:translate(-50%,-48%) scale(.84)}
- 4%{opacity:.94;transform:translate(-50%,-46%) scale(.72)}
- 9%{opacity:.78;transform:translate(-50%,-41%) scale(.57)}
- 14%{opacity:.48;transform:translate(-50%,-35%) scale(.44)}
- 20%{opacity:.12;transform:translate(-50%,-29%) scale(.32)}
- 25%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
- 100%{opacity:0;transform:translate(-50%,-27%) scale(.29)}
+ 0%,100%{opacity:0;transform:translate(-50%,-30%) scale(.30)}
 }
 /* Launched from the chest opening — sparks, circular shockwave and a tight
  * directional exhaust only; they remain behind the actual PlayerCard. */
@@ -1706,9 +1709,14 @@ ${Bm}
    is on the *scene*, not the 3D card, to avoid rotating the cutout with it.
    Do not clip the 3D flip during veil/settle or touch R+ tablet presentation.
  */
+/* N v1.34: no container clip during OPENING either. The entire camera
+   zoom must remain visible above its parent. The actual chest/front lip
+   masks the card naturally while the box is present. Its bottom stays
+   inside the scene through the rising keyframes. */
 .jp-gc-n-cinematic.jp-gc-p-chest .jp-gc-veil-scene{
- clip-path:inset(0 0 43% 0);
- -webkit-clip-path:inset(0 0 43% 0)
+ clip-path:none!important;
+ -webkit-clip-path:none!important;
+ overflow:visible!important
 }
 /* v1.33: release the whole card from the scene-level chest mask
    as soon as launch starts. Even inset(0 0 0 0) CLIPS children to the
