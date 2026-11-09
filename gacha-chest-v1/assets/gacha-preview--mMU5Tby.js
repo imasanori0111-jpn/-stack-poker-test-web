@@ -1864,6 +1864,11 @@ ${Fm}
  100%{opacity:1;transform:translateY(-6px) rotateZ(0deg) rotateY(0deg) scale(1.04)}
 }
 
+/* The N card must sit BETWEEN the two transparent depth canvases:
+   far particles z=1, continuous ambient z=2, card z=3, near lens z=4.
+   Foreground chest lip stays z=5 for physical card occlusion. */
+.jp-gc-n-cinematic .jp-gc-veil-scene{z-index:3}
+
 /* N v1.39: one mounted card remains at the exact 47% cinematic anchor.
    Draw result labels relative to that same anchor, not to a second
    variable-height flex stack (which drifted on short iPhone viewports).
