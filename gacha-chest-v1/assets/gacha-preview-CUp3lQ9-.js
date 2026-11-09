@@ -2094,9 +2094,15 @@ ${nf}
  opacity:1!important;
  animation:gc-n-chest-breathe 1.6s ease-in-out both!important
 }
+/* At the first burst of light the chest DISAPPEARS at fixed size.
+   No shrink, perspective retreat or reverse camera push. */
 .jp-gc.jp-gc-mystery-common.jp-gc-p-chest .jp-gc-chest-scene{
- opacity:1!important;
- animation:gc-n-v114-chest-recoil .7s linear both!important
+ animation:gc-v145-chest-covered-by-light .7s linear both!important
+}
+@keyframes gc-v145-chest-covered-by-light{
+ 0%,23%{opacity:1;transform:translate(-50%,-50%) scale(.94)}
+ 31%{opacity:.85;transform:translate(-50%,-50%) scale(.94)}
+ 42%,100%{opacity:0;transform:translate(-50%,-50%) scale(.94)}
 }
 .jp-gc.jp-gc-mystery-common.jp-gc-p-chest .jp-gc-chest-lid{
  animation:gc-n-lid-arc .7s cubic-bezier(.08,.72,.27,1) both!important
@@ -2109,8 +2115,7 @@ ${nf}
 }
 .jp-gc.jp-gc-mystery-common.jp-gc-p-launch .jp-gc-chest-scene,
 .jp-gc.jp-gc-mystery-common.jp-gc-p-mystery .jp-gc-chest-scene{
- opacity:0!important;
- animation:gc-n-v114-chest-recede 1.9s linear both!important
+ display:none!important
 }
 .jp-gc.jp-gc-mystery-common .jp-gc-chest-filmflare,
 .jp-gc.jp-gc-mystery-common .jp-gc-chest-fan,
