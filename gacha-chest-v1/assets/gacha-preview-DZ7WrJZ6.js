@@ -1710,16 +1710,16 @@ ${Bm}
  clip-path:inset(0 0 43% 0);
  -webkit-clip-path:inset(0 0 43% 0)
 }
+/* v1.33: release the whole card from the scene-level chest mask
+   as soon as launch starts. Even inset(0 0 0 0) CLIPS children to the
+   scene rectangle, cutting off the upper half of a card rising -151px.
+   The real foreground chest lip (z-index:5) still masks its lower edge,
+   while the card/flare are free to travel outside this scene's bounds. */
 .jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-veil-scene{
- animation:gc-n-v119-release-from-chest 1.9s linear both;
- clip-path:inset(0 0 0 0);
- -webkit-clip-path:inset(0 0 0 0)
-}
-/* The chest-floor clip opens as the actual card rises through the mouth. */
-@keyframes gc-n-v119-release-from-chest{
- 0%,6%{clip-path:inset(0 0 43% 0)}
- 13%{clip-path:inset(0 0 24% 0)}
- 22%,100%{clip-path:inset(0 0 0 0)}
+ animation:none!important;
+ clip-path:none!important;
+ -webkit-clip-path:none!important;
+ overflow:visible!important
 }
 @media(prefers-reduced-motion:reduce){
  .jp-gc-n-cinematic .jp-gc-veil-scene{
