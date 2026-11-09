@@ -2115,7 +2115,11 @@ ${nf}
 .jp-gc.jp-gc-mystery-common .jp-gc-chest-filmflare,
 .jp-gc.jp-gc-mystery-common .jp-gc-chest-fan,
 .jp-gc.jp-gc-mystery-common .jp-gc-chest-dust,
-.jp-gc.jp-gc-mystery-common .jp-gc-chest-metalglow{
+.jp-gc.jp-gc-mystery-common .jp-gc-chest-metalglow,
+.jp-gc.jp-gc-mystery-common .jp-gc-chest-halo,
+.jp-gc.jp-gc-mystery-common .jp-gc-chest-core,
+.jp-gc.jp-gc-mystery-common .jp-gc-chest-bloom,
+.jp-gc.jp-gc-mystery-common .jp-gc-lens-flare{
  /* Legacy chest FX had result-dependent brightness and timing. The shared
     MysteryFX canvas replaces them with deterministic optical layers. */
  display:none!important
