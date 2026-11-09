@@ -1798,10 +1798,13 @@ ${Fm}
  filter:drop-shadow(0 0 18px #9fcaff55);
  animation:gc-n-chest-breathe 1.6s ease-in-out both;
 }
+/* The scene is absolutely anchored at left:50% / top:47%.
+   Every animated transform MUST retain translate(-50%,-50%), otherwise the
+   chest origin jumps to the centre and the chest is clipped at screen right. */
 @keyframes gc-n-chest-breathe{
- 0%{filter:drop-shadow(0 0 4px #a8d6ff30);transform:scale(.985)}
- 72%{filter:drop-shadow(0 0 18px #e7f6ff99);transform:scale(1.025)}
- 100%{filter:drop-shadow(0 0 30px #fff4d6c0);transform:scale(1.035)}
+ 0%{filter:drop-shadow(0 0 4px #a8d6ff30);transform:translate(-50%,-50%) scale(.985)}
+ 72%{filter:drop-shadow(0 0 18px #e7f6ff99);transform:translate(-50%,-50%) scale(1.025)}
+ 100%{filter:drop-shadow(0 0 30px #fff4d6c0);transform:translate(-50%,-50%) scale(1.035)}
 }
 .jp-gc-n-cinematic.jp-gc-p-chest .jp-gc-n-mouth-emission{
  filter:brightness(1.35) drop-shadow(0 0 22px #fff4d6);
