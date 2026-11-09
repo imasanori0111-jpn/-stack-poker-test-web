@@ -2128,6 +2128,9 @@ ${nf}
  z-index:6;mix-blend-mode:screen;contain:layout style paint
 }
 .jp-gc.jp-gc-mystery-common .jp-gr-skip{z-index:30!important}
+/* The chest is already gone before the shared cocoon clears. Do not
+   resurrect legacy open-chest footage for one frame on R+ stone rise. */
+.jp-gc.jp-gc-p-rise .jp-gc-chest-scene{display:none!important}
 /* N face is first visible AFTER the exact same 5.15s common prefix.
    Existing card identity and the 10.0s completion stay unchanged. */
 .jp-gc-n-cinematic.jp-gc-p-veil .jp-gc-veil-scene{
