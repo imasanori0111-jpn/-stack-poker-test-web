@@ -2130,8 +2130,13 @@ ${lf}
  display:none!important
 }
 .jp-gc.jp-gc-mystery-common .jp-gc-mystery-fx{
- z-index:6;mix-blend-mode:screen;contain:layout style paint
+ mix-blend-mode:screen;contain:layout style paint
 }
+/* Three camera depths: far atmospheric optical layer, tangible chest, then
+   the close lens/opaque light cocoon. The two canvases use the same clock. */
+.jp-gc.jp-gc-mystery-common .jp-gc-mystery-fx--far{z-index:1}
+.jp-gc.jp-gc-mystery-common .jp-gc-chest-scene{z-index:2!important}
+.jp-gc.jp-gc-mystery-common .jp-gc-mystery-fx--near{z-index:6}
 .jp-gc.jp-gc-mystery-common .jp-gr-skip{z-index:30!important}
 /* The chest is already gone before the shared cocoon clears. Do not
    resurrect legacy open-chest footage for one frame on R+ stone rise. */
