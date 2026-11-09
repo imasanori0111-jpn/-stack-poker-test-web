@@ -1791,6 +1791,45 @@ ${Bm}
  .jp-gc-n-cinematic .jp-gc-card-shadow::after{display:none!important}
 }
 
+/* N cinematic polish: give the closed chest a visible pressure build,
+   make its opening a directional flash rather than an abrupt scene swap,
+   and sharpen the light-to-face handoff. Only the N route is affected. */
+.jp-gc-n-cinematic.jp-gc-p-gather .jp-gc-chest-scene{
+ filter:drop-shadow(0 0 18px #9fcaff55);
+ animation:gc-n-chest-breathe 1.6s ease-in-out both;
+}
+@keyframes gc-n-chest-breathe{
+ 0%{filter:drop-shadow(0 0 4px #a8d6ff30);transform:scale(.985)}
+ 72%{filter:drop-shadow(0 0 18px #e7f6ff99);transform:scale(1.025)}
+ 100%{filter:drop-shadow(0 0 30px #fff4d6c0);transform:scale(1.035)}
+}
+.jp-gc-n-cinematic.jp-gc-p-chest .jp-gc-n-mouth-emission{
+ filter:brightness(1.35) drop-shadow(0 0 22px #fff4d6);
+}
+.jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-n-disappear-white{
+ filter:brightness(1.35) drop-shadow(0 0 32px #d7f0ff);
+}
+.jp-gc-n-cinematic.jp-gc-p-launch .jp-gc-n-disappear-ring{
+ filter:drop-shadow(0 0 14px #f7eacb);
+}
+.jp-gc-n-cinematic.jp-gc-p-veil .jp-gc-card-shadow::after{
+ animation:gc-n-v136-shroud-reveal 5s cubic-bezier(.32,0,.16,1) both;
+}
+@keyframes gc-n-v136-shroud-reveal{
+ 0%,14%{opacity:.66;transform:scale(1.04)}
+ 28%{opacity:.76;transform:scale(1.08)}
+ 42%{opacity:.84;transform:scale(1.11)}
+ 48%{opacity:.94;transform:scale(1.13)}
+ 52%{opacity:.99;transform:scale(1.15)}
+ 57%{opacity:.20;transform:scale(1.19)}
+ 61%{opacity:.02;transform:scale(1.21)}
+ 65%,100%{opacity:0;transform:scale(1.21)}
+}
+@media(prefers-reduced-motion:reduce){
+ .jp-gc-n-cinematic.jp-gc-p-gather .jp-gc-chest-scene{animation:none!important}
+ .jp-gc-n-cinematic.jp-gc-p-veil .jp-gc-card-shadow::after{animation:none!important}
+}
+
 @media(prefers-reduced-motion:reduce){.jp-gc *{animation:none!important;transition:none!important}.jp-gc-fx{display:none}}
 `;function sf({playSound:e,homeUrl:t="./"}){const[a,n]=Y.useState(!1),i=typeof window<"u"?new URLSearchParams(window.location.search):new URLSearchParams,r=i.get("n-only")==="1",s=r&&i.get("tempo")==="fast";return Y.useEffect(()=>{document.title=r?`Nガチャ・${s?"高速6.5秒":"従来10秒"}プレビュー | スタックポーカー`:"ガチャ演出プレビュー | スタックポーカー"},[r,s]),p.jsxs("main",{className:"jp-gacha-preview-page",children:[p.jsxs("style",{children:[Wm,rf,cf]}),p.jsxs("header",{children:[p.jsx("span",{children:"STACK POKER"}),p.jsx("h1",{children:r?"Nガチャ演出":"ガチャ演出"}),p.jsx("p",{children:r?s?"参考用・旧6.5秒カット。":"合計10秒。宝箱が開く前のためを少し長く、飛び出してからはキビキビ進む。":"宝箱が開く。石板が割れ、運命の一枚が現れる。"})]}),p.jsxs("div",{className:"jp-gacha-preview-sound",children:[p.jsxs("label",{children:[p.jsx("input",{type:"checkbox","aria-label":"サウンド",checked:a,onChange:l=>{n(l.target.checked),l.target.checked&&e?.("gachaAudioUnlock")}}),p.jsxs("span",{children:["サウンド ",a?"ON":"OFF"]})]}),p.jsx("small",{children:"キュイン音も確認できます"})]}),p.jsx(nf,{sfx:a?e:null}),p.jsxs("footer",{children:[p.jsx("p",{children:"カードの獲得・ガチャ券の消費はありません。"}),p.jsx("a",{href:t,children:"ゲームのタイトルへ"})]})]})}const cf=`
 html,body{margin:0;min-height:100%;background:#050912;color:#e7dfce;font-family:system-ui,sans-serif}
