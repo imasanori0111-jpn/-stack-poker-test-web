@@ -1,0 +1,41 @@
+{
+ "title": "STACK POKER N通常演出 v2 改修前後の比較",
+ "viewport": "390x844",
+ "fps": 30,
+ "app": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-v2/?gacha-preview=1&fixture=n",
+ "compare_video": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/compare-before-after.mp4",
+ "before": {
+  "video": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/before/video.mp4",
+  "key_strip": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/before/key-strip.jpg",
+  "pr206_video": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/before/pr206-review.mp4",
+  "analysis": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/before/analysis.json",
+  "summary": {
+   "result_t": 10.0666,
+   "frames_white_over_25pct": 15,
+   "max_diff": {
+    "t": 4.3,
+    "diff": 29.57,
+    "white": 0.1482,
+    "mean": 170.3,
+    "stage": "cinema"
+   }
+  }
+ },
+ "after": {
+  "video": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/after/video.mp4",
+  "key_strip": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/after/key-strip.jpg",
+  "pr206_video": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/after/pr206-review.mp4",
+  "analysis": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-review-v2/after/analysis.json",
+  "summary": {
+   "result_t": 6.4666,
+   "frames_white_over_25pct": 0,
+   "max_diff": {
+    "t": 1.7666,
+    "diff": 27.58,
+    "white": 0.0,
+    "mean": 50.8,
+    "stage": "cinema"
+   }
+  }
+ }
+}

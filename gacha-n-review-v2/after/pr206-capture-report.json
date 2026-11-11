@@ -1,0 +1,70 @@
+{
+  "scenario": "n-after",
+  "description": "N通常演出(390×844)",
+  "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-n-after/?gacha-preview=1&fixture=n",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "started_utc": "2026-11-11T06:07:18.253334+00:00",
+  "browser": "mobile-emulated Chromium",
+  "has_audio": false,
+  "steps": [
+    {
+      "index": 1,
+      "type": "wait_for",
+      "video_seconds_approx": 1.903
+    },
+    {
+      "index": 2,
+      "type": "click_button",
+      "video_seconds_approx": 2.02
+    }
+  ],
+  "phase_transitions": [
+    {
+      "seconds": 0.0,
+      "video_seconds_approx": 2.056,
+      "phase": "cinema",
+      "className": "gr-root gr-stage-cinema",
+      "found": true
+    },
+    {
+      "seconds": 6.42,
+      "video_seconds_approx": 8.464,
+      "phase": "result",
+      "className": "gr-root gr-stage-result",
+      "found": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "failed_requests": [],
+  "http_status": 200,
+  "layout_before": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentScrollWidth": 390,
+    "horizontalOverflowPx": 0,
+    "controlsOutsideViewport": []
+  },
+  "setup_action_seconds": 0.184,
+  "action_done_video_seconds_approx": 2.02,
+  "observed_seconds": 8.458,
+  "layout_after": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "documentScrollWidth": 390,
+    "horizontalOverflowPx": 0,
+    "controlsOutsideViewport": []
+  },
+  "missing_phases": [],
+  "success": true,
+  "error": null
+}

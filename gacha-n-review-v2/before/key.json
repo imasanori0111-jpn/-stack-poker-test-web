@@ -1,0 +1,52 @@
+[
+ {
+  "t": 0.3,
+  "label": "待機(拡大前)",
+  "file": "key/key-00.30.jpg"
+ },
+ {
+  "t": 0.6,
+  "label": "拡大(急に大きく)",
+  "file": "key/key-00.60.jpg"
+ },
+ {
+  "t": 1.85,
+  "label": "開封",
+  "file": "key/key-01.85.jpg"
+ },
+ {
+  "t": 2.3,
+  "label": "画面全体が白",
+  "file": "key/key-02.30.jpg"
+ },
+ {
+  "t": 2.6,
+  "label": "中身が中央に出現",
+  "file": "key/key-02.60.jpg"
+ },
+ {
+  "t": 3.3,
+  "label": "白い四角",
+  "file": "key/key-03.30.jpg"
+ },
+ {
+  "t": 4.5,
+  "label": "白飛び",
+  "file": "key/key-04.50.jpg"
+ },
+ {
+  "t": 5.2,
+  "label": "白い四角のまま",
+  "file": "key/key-05.20.jpg"
+ },
+ {
+  "t": 5.4,
+  "label": "カードが急に出現",
+  "file": "key/key-05.40.jpg"
+ },
+ {
+  "t": 8.4,
+  "label": "結果",
+  "file": "key/key-08.40.jpg"
+ }
+]

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 220" width="140" height="220">
+<defs><linearGradient id="iv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9e1cc"/></linearGradient>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff1b8"/><stop offset=".5" stop-color="#c9952f"/><stop offset="1" stop-color="#fff1b8"/></linearGradient></defs>
+<path d="M4 4 L136 4 L136 170 L70 216 L4 170 Z" fill="url(#iv)" stroke="url(#gd)" stroke-width="6" stroke-linejoin="round"/>
+<path d="M14 14 L126 14 L126 164 L70 203 L14 164 Z" fill="none" stroke="#15151c" stroke-opacity=".18" stroke-width="2"/>
+<text x="70" y="104" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" font-weight="700" font-size="112" fill="#15151c" >5</text>
+<g transform="translate(36 112) scale(.68)" fill="#15151c"><path d="M50 4 C78 30 95 44 95 60 C95 74 84 82 72 82 C63 82 56 78 53 72 C54 82 58 90 66 97 L34 97 C42 90 46 82 47 72 C44 78 37 82 28 82 C16 82 5 74 5 60 C5 44 22 30 50 4 Z"/></g>
+</svg>

@@ -1,0 +1,72 @@
+[
+ {
+  "t": 0.6,
+  "label": "接近(なめらか)",
+  "file": "key/key-00.60.jpg"
+ },
+ {
+  "t": 1.6,
+  "label": "タメ・継ぎ目の光",
+  "file": "key/key-01.60.jpg"
+ },
+ {
+  "t": 1.8,
+  "label": "開封・光柱",
+  "file": "key/key-01.80.jpg"
+ },
+ {
+  "t": 1.9,
+  "label": "箱の中からカード",
+  "file": "key/key-01.90.jpg"
+ },
+ {
+  "t": 2.1,
+  "label": "上昇・箱が沈む",
+  "file": "key/key-02.10.jpg"
+ },
+ {
+  "t": 2.4,
+  "label": "箱が奥・下へ退場",
+  "file": "key/key-02.40.jpg"
+ },
+ {
+  "t": 2.8,
+  "label": "光に包まれ接近",
+  "file": "key/key-02.80.jpg"
+ },
+ {
+  "t": 3.3,
+  "label": "多層の光・回転",
+  "file": "key/key-03.30.jpg"
+ },
+ {
+  "t": 3.55,
+  "label": "手前に到着",
+  "file": "key/key-03.55.jpg"
+ },
+ {
+  "t": 3.9,
+  "label": "膜が薄くなる",
+  "file": "key/key-03.90.jpg"
+ },
+ {
+  "t": 4.15,
+  "label": "斜めに剥がれる",
+  "file": "key/key-04.15.jpg"
+ },
+ {
+  "t": 4.45,
+  "label": "絵柄が現れる",
+  "file": "key/key-04.45.jpg"
+ },
+ {
+  "t": 5.0,
+  "label": "余韻・光沢",
+  "file": "key/key-05.00.jpg"
+ },
+ {
+  "t": 6.4,
+  "label": "結果",
+  "file": "key/key-06.40.jpg"
+ }
+]
