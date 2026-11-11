@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 110" width="200" height="110">
+<defs><linearGradient id="m" gradientTransform="rotate(45 .5 .5)"><stop offset="0%" stop-color="#ff5a5a"/><stop offset="14.285714285714285%" stop-color="#ffb03c"/><stop offset="28.57142857142857%" stop-color="#ffe95a"/><stop offset="42.857142857142854%" stop-color="#5ee08a"/><stop offset="57.14285714285714%" stop-color="#4fd2ff"/><stop offset="71.42857142857143%" stop-color="#6b7bff"/><stop offset="85.71428571428571%" stop-color="#c77dff"/><stop offset="100%" stop-color="#ff5a9e"/></linearGradient><radialGradient id="bg" cx=".5" cy=".35" r=".7"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#efe2ff" stop-opacity=".95"/></radialGradient>
+<filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity=".5"/></filter></defs>
+<ellipse cx="100" cy="55" rx="94" ry="49" fill="url(#bg)" stroke="url(#m)" stroke-width="8" filter="url(#sh)"/>
+<ellipse cx="100" cy="55" rx="82" ry="38" fill="none" stroke="#3b2a6b" stroke-opacity=".5" stroke-width="2"/>
+<text x="100" y="76.7" text-anchor="middle" font-family="Georgia, 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif" font-style="italic" font-weight="700" font-size="62" fill="url(#m)" stroke="#3b2a6b" stroke-width="1.5" paint-order="stroke">UR</text>
+</svg>
