@@ -1,0 +1,630 @@
+{
+ "title": "STACK POKER ガチャ演出 統合改修 v3.0 検証素材",
+ "base_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/",
+ "source": "PR #206 の録画ツール(scripts/ai_browser_video_review.py)で録画。スマホを模した Chromium・390×844。iPhone 実機ではない",
+ "audio": "音あり(仮の音): アプリと同じ予約の関数で書き出したハイブリッド版の効果音を、演出の開始に合わせて後から重ねた(-16 LUFS)。録画ツールの録画そのものは音なし",
+ "time_note": "t は演出の開始からの秒。動画の時刻は録画の開始から数えるので 0.38 秒遅れる(誤差 ±0.05秒程度)",
+ "play_urls": {
+  "n": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-n4/?fixture=n&autoplay=1&sound=1",
+  "sr-b2s": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-n4/?fixture=sr-b2s&autoplay=1&sound=1",
+  "ur-b2g-up": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-n4/?fixture=ur-b2g-up&autoplay=1&sound=1",
+  "rev-auto-n": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-n4/?fixture=rev-auto-n&autoplay=1&sound=1",
+  "rev-button-sr": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-n4/?fixture=rev-button-sr&autoplay=1&sound=1"
+ },
+ "videos": {
+  "n": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/n.mp4",
+  "r_plus_full": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/r-plus-sr.mp4",
+  "r_plus_until_stone": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/r-plus-until-stone.mp4",
+  "common_compare": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/compare/common-n-revn-stone.mp4"
+ },
+ "images": {
+  "versions": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/compare/versions.jpg",
+  "stone_appear": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/compare/stone-appear.jpg",
+  "key_strips": [
+   "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key-strip-1.jpg",
+   "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key-strip-2.jpg"
+  ]
+ },
+ "timeline_constants": {
+  "APPROACH_END": 1.5,
+  "TAME": 1.55,
+  "OPEN": 2.25,
+  "LID_END": 2.42,
+  "CARD_OUT": 2.42,
+  "FLY": 2.72,
+  "CHEST_EXIT": 2.62,
+  "CHEST_GONE": 3.3,
+  "ARRIVE": 3.7,
+  "ENERGY_END": 4.2,
+  "PULSE_END": 4.6,
+  "REVEAL": 4.85,
+  "RAYS_OUT_END": 5.3,
+  "RESULT": 5.05,
+  "CORE": 5.5,
+  "FLASH": 5.72,
+  "CLEAR": 5.78,
+  "SHEEN": 5.95,
+  "UI": 6.9,
+  "UI_END": 7.5,
+  "TOTAL": 7.8
+ },
+ "stone_shift_seconds": 0.18,
+ "stages": [
+  {
+   "t": 0,
+   "stage": "宝箱が奥から近づく"
+  },
+  {
+   "t": 1.55,
+   "stage": "タメ(震え・蓋のすき間の光)"
+  },
+  {
+   "t": 2.25,
+   "stage": "開封(光があふれる)"
+  },
+  {
+   "t": 2.42,
+   "stage": "発光枠が箱の中から浮かぶ"
+  },
+  {
+   "t": 2.72,
+   "stage": "発光枠が手前へ・宝箱は退場"
+  },
+  {
+   "t": 3.7,
+   "stage": "発光枠の完成。光が包み始める(エネルギーが高まる)"
+  },
+  {
+   "t": 4.2,
+   "stage": "脈動・粒子が集まる"
+  },
+  {
+   "t": 4.6,
+   "stage": "光が収束・短い静寂"
+  },
+  {
+   "t": 4.85,
+   "stage": "光がはける 第1段階(外の光線・オーラが流れ去る)"
+  },
+  {
+   "t": 4.9,
+   "stage": "第2段階(光の膜が外側から別々に剥がれる)"
+  },
+  {
+   "t": 5.26,
+   "stage": "第3段階(中央に残った光が細く収束)"
+  },
+  {
+   "t": 5.72,
+   "stage": "小さな閃光・粒が散る"
+  },
+  {
+   "t": 5.78,
+   "stage": "余韻(金の粒を短く)"
+  },
+  {
+   "t": 6.9,
+   "stage": "結果画面が出る"
+  }
+ ],
+ "audio_cues_n": [
+  {
+   "t": 0,
+   "id": "hum"
+  },
+  {
+   "t": 0.05,
+   "id": "n2Approach"
+  },
+  {
+   "t": 1.36,
+   "id": "tension"
+  },
+  {
+   "t": 2.25,
+   "id": "chestOpen"
+  },
+  {
+   "t": 2.25,
+   "id": "n2Boom"
+  },
+  {
+   "t": 2.3,
+   "id": "rush"
+  },
+  {
+   "t": 2.72,
+   "id": "n2Fly"
+  },
+  {
+   "t": 3.62,
+   "id": "shimmer"
+  },
+  {
+   "t": 4.27,
+   "id": "n2Build"
+  },
+  {
+   "t": 4.85,
+   "id": "n2Bloom"
+  },
+  {
+   "t": 5.05,
+   "id": "revealSoft"
+  },
+  {
+   "t": 5.72,
+   "id": "fade"
+  },
+  {
+   "t": 6.9,
+   "id": "settle"
+  }
+ ],
+ "audio_cues_sr_b2s": [
+  {
+   "t": 0,
+   "id": "hum"
+  },
+  {
+   "t": 0.05,
+   "id": "n2Approach"
+  },
+  {
+   "t": 1.36,
+   "id": "tension"
+  },
+  {
+   "t": 2.25,
+   "id": "chestOpen"
+  },
+  {
+   "t": 2.25,
+   "id": "n2Boom"
+  },
+  {
+   "t": 2.3,
+   "id": "rush"
+  },
+  {
+   "t": 2.72,
+   "id": "n2Fly"
+  },
+  {
+   "t": 3.62,
+   "id": "shimmer"
+  },
+  {
+   "t": 4.27,
+   "id": "n2Build"
+  },
+  {
+   "t": 4.85,
+   "id": "n2Bloom"
+  },
+  {
+   "t": 5.05,
+   "id": "stoneResonance",
+   "stone": "bronze"
+  },
+  {
+   "t": 6.33,
+   "id": "promote",
+   "from": "bronze",
+   "to": "silver"
+  },
+  {
+   "t": 7.83,
+   "id": "crackFirst"
+  },
+  {
+   "t": 8.2,
+   "id": "crackBranch"
+  },
+  {
+   "t": 8.36,
+   "id": "crackBranch"
+  },
+  {
+   "t": 8.49,
+   "id": "crackBranch"
+  },
+  {
+   "t": 8.65,
+   "id": "crackBranch"
+  },
+  {
+   "t": 8.78,
+   "id": "crackBranch"
+  },
+  {
+   "t": 8.88,
+   "id": "leak"
+  },
+  {
+   "t": 9.73,
+   "id": "pressure"
+  },
+  {
+   "t": 9.78,
+   "id": "crackBranch"
+  },
+  {
+   "t": 9.96,
+   "id": "crackBranch"
+  },
+  {
+   "t": 10.08,
+   "id": "crackBranch"
+  },
+  {
+   "t": 10.2,
+   "id": "crackBranch"
+  },
+  {
+   "t": 10.33,
+   "id": "hold"
+  },
+  {
+   "t": 10.63,
+   "id": "shatter"
+  },
+  {
+   "t": 10.98,
+   "id": "emerge"
+  },
+  {
+   "t": 11.38,
+   "id": "flip"
+  },
+  {
+   "t": 11.93,
+   "id": "sting",
+   "rarity": "s"
+  }
+ ],
+ "common_part": "0〜4.85秒(光がはけ始めるまで)は全ルートで同じ映像・同じ音の予定。手元のコマ単位の比較: N と UR 逆転の仮 N は結果画面の NEW の札(約6.97秒)まで全コマ一致 / N と R 以上は 4.87秒まで一致(4.13秒の1コマだけ4画素が1階調ちがう)",
+ "auto_check": {
+  "n": {
+   "start_frame": 16,
+   "unique_fps": 24.6,
+   "stalls_ge3": [],
+   "chest_width_every_0.2s": [
+    148,
+    188,
+    232,
+    273,
+    312,
+    336,
+    344,
+    349,
+    348,
+    349,
+    358,
+    363
+   ],
+   "chest_max_step_px": 12,
+   "chest_frames_stuck_then_jump": 0,
+   "white_peak_pct": 18.4,
+   "white_peak_t": 5.0,
+   "white_over50pct_seconds": 0.0,
+   "luma_peak": 161.8
+  },
+  "r_plus": {
+   "start_frame": 17,
+   "unique_fps": 24.4,
+   "stalls_ge3": [],
+   "chest_width_every_0.2s": [
+    150,
+    193,
+    235,
+    275,
+    313,
+    337,
+    346,
+    349,
+    350,
+    350,
+    359,
+    386
+   ],
+   "chest_max_step_px": 16,
+   "chest_frames_stuck_then_jump": 2,
+   "white_peak_pct": 18.0,
+   "white_peak_t": 5.0,
+   "white_over50pct_seconds": 0.0,
+   "luma_peak": 161.6
+  },
+  "rev_auto_n": {
+   "start_frame": 18,
+   "unique_fps": 24.0,
+   "stalls_ge3": [],
+   "chest_width_every_0.2s": [
+    153,
+    201,
+    237,
+    275,
+    313,
+    336,
+    345,
+    351,
+    349,
+    351,
+    357,
+    372
+   ],
+   "chest_max_step_px": 18,
+   "chest_frames_stuck_then_jump": 0,
+   "white_peak_pct": 38.1,
+   "white_peak_t": 14.6,
+   "white_over50pct_seconds": 0.0,
+   "luma_peak": 164.0
+  }
+ },
+ "key_frames": [
+  {
+   "t": 2.32,
+   "label": "開封",
+   "stage": "開封(光があふれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k01-00232.jpg"
+  },
+  {
+   "t": 3.0,
+   "label": "発光枠が飛び出す",
+   "stage": "発光枠が手前へ・宝箱は退場",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k02-00300.jpg"
+  },
+  {
+   "t": 3.75,
+   "label": "発光枠の完成",
+   "stage": "発光枠の完成。光が包み始める(エネルギーが高まる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k03-00375.jpg"
+  },
+  {
+   "t": 4.0,
+   "label": "光が包み始める",
+   "stage": "発光枠の完成。光が包み始める(エネルギーが高まる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k04-00400.jpg"
+  },
+  {
+   "t": 4.2,
+   "label": "オーラ・回り込む光",
+   "stage": "脈動・粒子が集まる",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k05-00420.jpg"
+  },
+  {
+   "t": 4.45,
+   "label": "脈動",
+   "stage": "脈動・粒子が集まる",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k06-00445.jpg"
+  },
+  {
+   "t": 4.7,
+   "label": "収束",
+   "stage": "光が収束・短い静寂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k07-00470.jpg"
+  },
+  {
+   "t": 4.83,
+   "label": "静寂の終わり",
+   "stage": "光が収束・短い静寂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k08-00483.jpg"
+  },
+  {
+   "t": 4.95,
+   "label": "はける 第1段階",
+   "stage": "第2段階(光の膜が外側から別々に剥がれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k09-00495.jpg"
+  },
+  {
+   "t": 5.08,
+   "label": "第2段階",
+   "stage": "第2段階(光の膜が外側から別々に剥がれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k10-00508.jpg"
+  },
+  {
+   "t": 5.2,
+   "label": "膜が剥がれる",
+   "stage": "第2段階(光の膜が外側から別々に剥がれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k11-00520.jpg"
+  },
+  {
+   "t": 5.4,
+   "label": "中央に残る光",
+   "stage": "第3段階(中央に残った光が細く収束)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k12-00540.jpg"
+  },
+  {
+   "t": 5.65,
+   "label": "収束",
+   "stage": "第3段階(中央に残った光が細く収束)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k13-00565.jpg"
+  },
+  {
+   "t": 5.75,
+   "label": "閃光",
+   "stage": "小さな閃光・粒が散る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k14-00575.jpg"
+  },
+  {
+   "t": 6.0,
+   "label": "余韻",
+   "stage": "余韻(金の粒を短く)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k15-00600.jpg"
+  },
+  {
+   "t": 7.5,
+   "label": "結果画面",
+   "stage": "結果画面が出る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/key/k16-00750.jpg"
+  }
+ ],
+ "frame_interval_seconds": 0.25,
+ "frames": [
+  {
+   "t": 0.0,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00000.jpg"
+  },
+  {
+   "t": 0.25,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00025.jpg"
+  },
+  {
+   "t": 0.5,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00050.jpg"
+  },
+  {
+   "t": 0.75,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00075.jpg"
+  },
+  {
+   "t": 1.0,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00100.jpg"
+  },
+  {
+   "t": 1.25,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00125.jpg"
+  },
+  {
+   "t": 1.5,
+   "stage": "宝箱が奥から近づく",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00150.jpg"
+  },
+  {
+   "t": 1.75,
+   "stage": "タメ(震え・蓋のすき間の光)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00175.jpg"
+  },
+  {
+   "t": 2.0,
+   "stage": "タメ(震え・蓋のすき間の光)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00200.jpg"
+  },
+  {
+   "t": 2.25,
+   "stage": "開封(光があふれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00225.jpg"
+  },
+  {
+   "t": 2.5,
+   "stage": "発光枠が箱の中から浮かぶ",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00250.jpg"
+  },
+  {
+   "t": 2.75,
+   "stage": "発光枠が手前へ・宝箱は退場",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00275.jpg"
+  },
+  {
+   "t": 3.0,
+   "stage": "発光枠が手前へ・宝箱は退場",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00300.jpg"
+  },
+  {
+   "t": 3.25,
+   "stage": "発光枠が手前へ・宝箱は退場",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00325.jpg"
+  },
+  {
+   "t": 3.5,
+   "stage": "発光枠が手前へ・宝箱は退場",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00350.jpg"
+  },
+  {
+   "t": 3.75,
+   "stage": "発光枠の完成。光が包み始める(エネルギーが高まる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00375.jpg"
+  },
+  {
+   "t": 4.0,
+   "stage": "発光枠の完成。光が包み始める(エネルギーが高まる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00400.jpg"
+  },
+  {
+   "t": 4.25,
+   "stage": "脈動・粒子が集まる",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00425.jpg"
+  },
+  {
+   "t": 4.5,
+   "stage": "脈動・粒子が集まる",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00450.jpg"
+  },
+  {
+   "t": 4.75,
+   "stage": "光が収束・短い静寂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00475.jpg"
+  },
+  {
+   "t": 5.0,
+   "stage": "第2段階(光の膜が外側から別々に剥がれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00500.jpg"
+  },
+  {
+   "t": 5.25,
+   "stage": "第2段階(光の膜が外側から別々に剥がれる)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00525.jpg"
+  },
+  {
+   "t": 5.5,
+   "stage": "第3段階(中央に残った光が細く収束)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00550.jpg"
+  },
+  {
+   "t": 5.75,
+   "stage": "小さな閃光・粒が散る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00575.jpg"
+  },
+  {
+   "t": 6.0,
+   "stage": "余韻(金の粒を短く)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00600.jpg"
+  },
+  {
+   "t": 6.25,
+   "stage": "余韻(金の粒を短く)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00625.jpg"
+  },
+  {
+   "t": 6.5,
+   "stage": "余韻(金の粒を短く)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00650.jpg"
+  },
+  {
+   "t": 6.75,
+   "stage": "余韻(金の粒を短く)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00675.jpg"
+  },
+  {
+   "t": 7.0,
+   "stage": "結果画面が出る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00700.jpg"
+  },
+  {
+   "t": 7.25,
+   "stage": "結果画面が出る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00725.jpg"
+  },
+  {
+   "t": 7.5,
+   "stage": "結果画面が出る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00750.jpg"
+  },
+  {
+   "t": 7.75,
+   "stage": "結果画面が出る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00775.jpg"
+  },
+  {
+   "t": 8.0,
+   "stage": "結果画面が出る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-n4/frames/f-00800.jpg"
+  }
+ ]
+}
