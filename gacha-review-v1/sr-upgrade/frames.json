@@ -1,0 +1,413 @@
+{
+ "id": "sr-upgrade",
+ "title": "SR 昇格(銅→銀)",
+ "fixture": "sr-b2s",
+ "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=sr-b2s&autoplay=1",
+ "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/video.mp4",
+ "video_offset_seconds": 0.32,
+ "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/",
+ "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key-strip.jpg",
+ "stages": [
+  {
+   "t": 0,
+   "stage": "宝箱・接近とため"
+  },
+  {
+   "t": 1.75,
+   "stage": "宝箱が開く"
+  },
+  {
+   "t": 2.5,
+   "stage": "光が飛び出す"
+  },
+  {
+   "t": 3.25,
+   "stage": "光の板"
+  },
+  {
+   "t": 5.15,
+   "stage": "石板の出現(初期の色)"
+  },
+  {
+   "t": 6.15,
+   "stage": "石板の昇格"
+  },
+  {
+   "t": 6.85,
+   "stage": "昇格のあと"
+  },
+  {
+   "t": 7.65,
+   "stage": "亀裂"
+  },
+  {
+   "t": 9.55,
+   "stage": "亀裂・圧力"
+  },
+  {
+   "t": 10.15,
+   "stage": "ため"
+  },
+  {
+   "t": 10.45,
+   "stage": "破砕・カード出現"
+  },
+  {
+   "t": 11.2,
+   "stage": "カードがめくれる/表が光る"
+  },
+  {
+   "t": 11.75,
+   "stage": "カード公開"
+  },
+  {
+   "t": 12.5,
+   "stage": "結果画面"
+  }
+ ],
+ "key_frames": [
+  {
+   "t": 5.4,
+   "label": "石板(銅)",
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k01-00540.jpg"
+  },
+  {
+   "t": 6.45,
+   "label": "昇格の光",
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k02-00645.jpg"
+  },
+  {
+   "t": 7.2,
+   "label": "石板(銀)",
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k03-00720.jpg"
+  },
+  {
+   "t": 8.6,
+   "label": "亀裂",
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k04-00860.jpg"
+  },
+  {
+   "t": 10.2,
+   "label": "ため",
+   "stage": "ため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k05-01020.jpg"
+  },
+  {
+   "t": 10.7,
+   "label": "破砕",
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k06-01070.jpg"
+  },
+  {
+   "t": 11.5,
+   "label": "めくれる",
+   "stage": "カードがめくれる/表が光る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k07-01150.jpg"
+  },
+  {
+   "t": 12.0,
+   "label": "公開",
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k08-01200.jpg"
+  },
+  {
+   "t": 13.2,
+   "label": "結果画面",
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k09-01320.jpg"
+  }
+ ],
+ "frame_interval_seconds": 0.25,
+ "frames": [
+  {
+   "t": 0.0,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00000.jpg"
+  },
+  {
+   "t": 0.25,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00025.jpg"
+  },
+  {
+   "t": 0.5,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00050.jpg"
+  },
+  {
+   "t": 0.75,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00075.jpg"
+  },
+  {
+   "t": 1.0,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00100.jpg"
+  },
+  {
+   "t": 1.25,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00125.jpg"
+  },
+  {
+   "t": 1.5,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00150.jpg"
+  },
+  {
+   "t": 1.75,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00175.jpg"
+  },
+  {
+   "t": 2.0,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00200.jpg"
+  },
+  {
+   "t": 2.25,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00225.jpg"
+  },
+  {
+   "t": 2.5,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00250.jpg"
+  },
+  {
+   "t": 2.75,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00275.jpg"
+  },
+  {
+   "t": 3.0,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00300.jpg"
+  },
+  {
+   "t": 3.25,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00325.jpg"
+  },
+  {
+   "t": 3.5,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00350.jpg"
+  },
+  {
+   "t": 3.75,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00375.jpg"
+  },
+  {
+   "t": 4.0,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00400.jpg"
+  },
+  {
+   "t": 4.25,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00425.jpg"
+  },
+  {
+   "t": 4.5,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00450.jpg"
+  },
+  {
+   "t": 4.75,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00475.jpg"
+  },
+  {
+   "t": 5.0,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00500.jpg"
+  },
+  {
+   "t": 5.25,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00525.jpg"
+  },
+  {
+   "t": 5.5,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00550.jpg"
+  },
+  {
+   "t": 5.75,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00575.jpg"
+  },
+  {
+   "t": 6.0,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00600.jpg"
+  },
+  {
+   "t": 6.25,
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00625.jpg"
+  },
+  {
+   "t": 6.5,
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00650.jpg"
+  },
+  {
+   "t": 6.75,
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00675.jpg"
+  },
+  {
+   "t": 7.0,
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00700.jpg"
+  },
+  {
+   "t": 7.25,
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00725.jpg"
+  },
+  {
+   "t": 7.5,
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00750.jpg"
+  },
+  {
+   "t": 7.75,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00775.jpg"
+  },
+  {
+   "t": 8.0,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00800.jpg"
+  },
+  {
+   "t": 8.25,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00825.jpg"
+  },
+  {
+   "t": 8.5,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00850.jpg"
+  },
+  {
+   "t": 8.75,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00875.jpg"
+  },
+  {
+   "t": 9.0,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00900.jpg"
+  },
+  {
+   "t": 9.25,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00925.jpg"
+  },
+  {
+   "t": 9.5,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00950.jpg"
+  },
+  {
+   "t": 9.75,
+   "stage": "亀裂・圧力",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-00975.jpg"
+  },
+  {
+   "t": 10.0,
+   "stage": "亀裂・圧力",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01000.jpg"
+  },
+  {
+   "t": 10.25,
+   "stage": "ため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01025.jpg"
+  },
+  {
+   "t": 10.5,
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01050.jpg"
+  },
+  {
+   "t": 10.75,
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01075.jpg"
+  },
+  {
+   "t": 11.0,
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01100.jpg"
+  },
+  {
+   "t": 11.25,
+   "stage": "カードがめくれる/表が光る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01125.jpg"
+  },
+  {
+   "t": 11.5,
+   "stage": "カードがめくれる/表が光る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01150.jpg"
+  },
+  {
+   "t": 11.75,
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01175.jpg"
+  },
+  {
+   "t": 12.0,
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01200.jpg"
+  },
+  {
+   "t": 12.25,
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01225.jpg"
+  },
+  {
+   "t": 12.5,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01250.jpg"
+  },
+  {
+   "t": 12.75,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01275.jpg"
+  },
+  {
+   "t": 13.0,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01300.jpg"
+  },
+  {
+   "t": 13.25,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01325.jpg"
+  },
+  {
+   "t": 13.5,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01350.jpg"
+  },
+  {
+   "t": 13.75,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01375.jpg"
+  },
+  {
+   "t": 14.0,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames/f-01400.jpg"
+  }
+ ],
+ "audio": "音あり: 録画ツールの録画は音なしなので、アプリと同じ予約の関数で書き出した効果音(ハイブリッド版。サウンド ON の状態)を、演出の開始に合わせて後から合成した(-16 LUFS)。iPhone で録った音ではない"
+}

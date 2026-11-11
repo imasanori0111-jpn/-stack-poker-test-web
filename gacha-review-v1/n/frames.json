@@ -1,0 +1,293 @@
+{
+ "id": "n",
+ "title": "N 通常演出(石板なし)",
+ "fixture": "n",
+ "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=n&autoplay=1",
+ "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/video.mp4",
+ "video_offset_seconds": 0.52,
+ "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/",
+ "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key-strip.jpg",
+ "stages": [
+  {
+   "t": 0,
+   "stage": "宝箱・接近とため"
+  },
+  {
+   "t": 1.75,
+   "stage": "宝箱が開く"
+  },
+  {
+   "t": 2.5,
+   "stage": "光が飛び出す"
+  },
+  {
+   "t": 3.25,
+   "stage": "光の板"
+  },
+  {
+   "t": 5.15,
+   "stage": "カード出現"
+  },
+  {
+   "t": 7.6,
+   "stage": "結果画面"
+  }
+ ],
+ "key_frames": [
+  {
+   "t": 0.3,
+   "label": "宝箱",
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k01-00030.jpg"
+  },
+  {
+   "t": 1.9,
+   "label": "宝箱が開く",
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k02-00190.jpg"
+  },
+  {
+   "t": 3.0,
+   "label": "光が飛び出す",
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k03-00300.jpg"
+  },
+  {
+   "t": 4.4,
+   "label": "光の板",
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k04-00440.jpg"
+  },
+  {
+   "t": 5.4,
+   "label": "カード出現",
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k05-00540.jpg"
+  },
+  {
+   "t": 8.5,
+   "label": "結果画面",
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k06-00850.jpg"
+  }
+ ],
+ "frame_interval_seconds": 0.25,
+ "frames": [
+  {
+   "t": 0.0,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00000.jpg"
+  },
+  {
+   "t": 0.25,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00025.jpg"
+  },
+  {
+   "t": 0.5,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00050.jpg"
+  },
+  {
+   "t": 0.75,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00075.jpg"
+  },
+  {
+   "t": 1.0,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00100.jpg"
+  },
+  {
+   "t": 1.25,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00125.jpg"
+  },
+  {
+   "t": 1.5,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00150.jpg"
+  },
+  {
+   "t": 1.75,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00175.jpg"
+  },
+  {
+   "t": 2.0,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00200.jpg"
+  },
+  {
+   "t": 2.25,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00225.jpg"
+  },
+  {
+   "t": 2.5,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00250.jpg"
+  },
+  {
+   "t": 2.75,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00275.jpg"
+  },
+  {
+   "t": 3.0,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00300.jpg"
+  },
+  {
+   "t": 3.25,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00325.jpg"
+  },
+  {
+   "t": 3.5,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00350.jpg"
+  },
+  {
+   "t": 3.75,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00375.jpg"
+  },
+  {
+   "t": 4.0,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00400.jpg"
+  },
+  {
+   "t": 4.25,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00425.jpg"
+  },
+  {
+   "t": 4.5,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00450.jpg"
+  },
+  {
+   "t": 4.75,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00475.jpg"
+  },
+  {
+   "t": 5.0,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00500.jpg"
+  },
+  {
+   "t": 5.25,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00525.jpg"
+  },
+  {
+   "t": 5.5,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00550.jpg"
+  },
+  {
+   "t": 5.75,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00575.jpg"
+  },
+  {
+   "t": 6.0,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00600.jpg"
+  },
+  {
+   "t": 6.25,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00625.jpg"
+  },
+  {
+   "t": 6.5,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00650.jpg"
+  },
+  {
+   "t": 6.75,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00675.jpg"
+  },
+  {
+   "t": 7.0,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00700.jpg"
+  },
+  {
+   "t": 7.25,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00725.jpg"
+  },
+  {
+   "t": 7.5,
+   "stage": "カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00750.jpg"
+  },
+  {
+   "t": 7.75,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00775.jpg"
+  },
+  {
+   "t": 8.0,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00800.jpg"
+  },
+  {
+   "t": 8.25,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00825.jpg"
+  },
+  {
+   "t": 8.5,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00850.jpg"
+  },
+  {
+   "t": 8.75,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00875.jpg"
+  },
+  {
+   "t": 9.0,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00900.jpg"
+  },
+  {
+   "t": 9.25,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00925.jpg"
+  },
+  {
+   "t": 9.5,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00950.jpg"
+  },
+  {
+   "t": 9.75,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-00975.jpg"
+  },
+  {
+   "t": 10.0,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-01000.jpg"
+  },
+  {
+   "t": 10.25,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-01025.jpg"
+  },
+  {
+   "t": 10.5,
+   "stage": "結果画面",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames/f-01050.jpg"
+  }
+ ],
+ "audio": "音あり: 録画ツールの録画は音なしなので、アプリと同じ予約の関数で書き出した効果音(ハイブリッド版。サウンド ON の状態)を、演出の開始に合わせて後から合成した(-16 LUFS)。iPhone で録った音ではない"
+}

@@ -1,0 +1,644 @@
+{
+ "id": "ur-reversal-button",
+ "title": "UR 逆転・ボタン型(仮 SR。結果画面の「図鑑で見る」を押す)",
+ "fixture": "rev-button-sr",
+ "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=rev-button-sr&autoplay=1",
+ "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/video.mp4",
+ "video_offset_seconds": 0.28,
+ "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/",
+ "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key-strip.jpg",
+ "stages": [
+  {
+   "t": 0,
+   "stage": "宝箱・接近とため"
+  },
+  {
+   "t": 1.75,
+   "stage": "宝箱が開く"
+  },
+  {
+   "t": 2.5,
+   "stage": "光が飛び出す"
+  },
+  {
+   "t": 3.25,
+   "stage": "光の板"
+  },
+  {
+   "t": 5.15,
+   "stage": "石板の出現(初期の色)"
+  },
+  {
+   "t": 6.15,
+   "stage": "石板の昇格"
+  },
+  {
+   "t": 6.85,
+   "stage": "昇格のあと"
+  },
+  {
+   "t": 7.65,
+   "stage": "亀裂"
+  },
+  {
+   "t": 9.55,
+   "stage": "亀裂・圧力"
+  },
+  {
+   "t": 10.15,
+   "stage": "ため"
+  },
+  {
+   "t": 10.45,
+   "stage": "破砕・カード出現"
+  },
+  {
+   "t": 11.2,
+   "stage": "カードがめくれる/表が光る"
+  },
+  {
+   "t": 11.75,
+   "stage": "カード公開"
+  },
+  {
+   "t": 12.5,
+   "stage": "結果画面(仮 SR)"
+  },
+  {
+   "t": 14.64,
+   "stage": "「図鑑で見る」を押す"
+  },
+  {
+   "t": 15.49,
+   "stage": "UR逆転: 亀裂"
+  },
+  {
+   "t": 16.94,
+   "stage": "UR逆転: 共鳴"
+  },
+  {
+   "t": 18.54,
+   "stage": "UR逆転: 外殻の破砕"
+  },
+  {
+   "t": 19.44,
+   "stage": "UR逆転: URの降臨"
+  },
+  {
+   "t": 20.44,
+   "stage": "UR逆転: UR公開"
+  },
+  {
+   "t": 21.04,
+   "stage": "UR逆転: 余韻"
+  },
+  {
+   "t": 22.64,
+   "stage": "結果画面(真の結果 UR)"
+  }
+ ],
+ "key_frames": [
+  {
+   "t": 11.75,
+   "label": "公開(仮 SR)",
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k01-01175.jpg"
+  },
+  {
+   "t": 13.5,
+   "label": "仮の結果",
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k02-01350.jpg"
+  },
+  {
+   "t": 14.9,
+   "label": "押した直後(暗転)",
+   "stage": "「図鑑で見る」を押す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k03-01490.jpg"
+  },
+  {
+   "t": 17.6,
+   "label": "亀裂",
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k04-01760.jpg"
+  },
+  {
+   "t": 18.8,
+   "label": "外殻の破砕",
+   "stage": "UR逆転: 外殻の破砕",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k05-01880.jpg"
+  },
+  {
+   "t": 19.4,
+   "label": "白い光",
+   "stage": "UR逆転: 外殻の破砕",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k06-01940.jpg"
+  },
+  {
+   "t": 20.0,
+   "label": "UR",
+   "stage": "UR逆転: URの降臨",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k07-02000.jpg"
+  },
+  {
+   "t": 23.5,
+   "label": "結果画面(UR)",
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k08-02350.jpg"
+  }
+ ],
+ "frame_interval_seconds": 0.25,
+ "frames": [
+  {
+   "t": 0.0,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00000.jpg"
+  },
+  {
+   "t": 0.25,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00025.jpg"
+  },
+  {
+   "t": 0.5,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00050.jpg"
+  },
+  {
+   "t": 0.75,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00075.jpg"
+  },
+  {
+   "t": 1.0,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00100.jpg"
+  },
+  {
+   "t": 1.25,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00125.jpg"
+  },
+  {
+   "t": 1.5,
+   "stage": "宝箱・接近とため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00150.jpg"
+  },
+  {
+   "t": 1.75,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00175.jpg"
+  },
+  {
+   "t": 2.0,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00200.jpg"
+  },
+  {
+   "t": 2.25,
+   "stage": "宝箱が開く",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00225.jpg"
+  },
+  {
+   "t": 2.5,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00250.jpg"
+  },
+  {
+   "t": 2.75,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00275.jpg"
+  },
+  {
+   "t": 3.0,
+   "stage": "光が飛び出す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00300.jpg"
+  },
+  {
+   "t": 3.25,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00325.jpg"
+  },
+  {
+   "t": 3.5,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00350.jpg"
+  },
+  {
+   "t": 3.75,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00375.jpg"
+  },
+  {
+   "t": 4.0,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00400.jpg"
+  },
+  {
+   "t": 4.25,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00425.jpg"
+  },
+  {
+   "t": 4.5,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00450.jpg"
+  },
+  {
+   "t": 4.75,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00475.jpg"
+  },
+  {
+   "t": 5.0,
+   "stage": "光の板",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00500.jpg"
+  },
+  {
+   "t": 5.25,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00525.jpg"
+  },
+  {
+   "t": 5.5,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00550.jpg"
+  },
+  {
+   "t": 5.75,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00575.jpg"
+  },
+  {
+   "t": 6.0,
+   "stage": "石板の出現(初期の色)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00600.jpg"
+  },
+  {
+   "t": 6.25,
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00625.jpg"
+  },
+  {
+   "t": 6.5,
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00650.jpg"
+  },
+  {
+   "t": 6.75,
+   "stage": "石板の昇格",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00675.jpg"
+  },
+  {
+   "t": 7.0,
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00700.jpg"
+  },
+  {
+   "t": 7.25,
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00725.jpg"
+  },
+  {
+   "t": 7.5,
+   "stage": "昇格のあと",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00750.jpg"
+  },
+  {
+   "t": 7.75,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00775.jpg"
+  },
+  {
+   "t": 8.0,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00800.jpg"
+  },
+  {
+   "t": 8.25,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00825.jpg"
+  },
+  {
+   "t": 8.5,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00850.jpg"
+  },
+  {
+   "t": 8.75,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00875.jpg"
+  },
+  {
+   "t": 9.0,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00900.jpg"
+  },
+  {
+   "t": 9.25,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00925.jpg"
+  },
+  {
+   "t": 9.5,
+   "stage": "亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00950.jpg"
+  },
+  {
+   "t": 9.75,
+   "stage": "亀裂・圧力",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-00975.jpg"
+  },
+  {
+   "t": 10.0,
+   "stage": "亀裂・圧力",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01000.jpg"
+  },
+  {
+   "t": 10.25,
+   "stage": "ため",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01025.jpg"
+  },
+  {
+   "t": 10.5,
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01050.jpg"
+  },
+  {
+   "t": 10.75,
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01075.jpg"
+  },
+  {
+   "t": 11.0,
+   "stage": "破砕・カード出現",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01100.jpg"
+  },
+  {
+   "t": 11.25,
+   "stage": "カードがめくれる/表が光る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01125.jpg"
+  },
+  {
+   "t": 11.5,
+   "stage": "カードがめくれる/表が光る",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01150.jpg"
+  },
+  {
+   "t": 11.75,
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01175.jpg"
+  },
+  {
+   "t": 12.0,
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01200.jpg"
+  },
+  {
+   "t": 12.25,
+   "stage": "カード公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01225.jpg"
+  },
+  {
+   "t": 12.5,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01250.jpg"
+  },
+  {
+   "t": 12.75,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01275.jpg"
+  },
+  {
+   "t": 13.0,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01300.jpg"
+  },
+  {
+   "t": 13.25,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01325.jpg"
+  },
+  {
+   "t": 13.5,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01350.jpg"
+  },
+  {
+   "t": 13.75,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01375.jpg"
+  },
+  {
+   "t": 14.0,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01400.jpg"
+  },
+  {
+   "t": 14.25,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01425.jpg"
+  },
+  {
+   "t": 14.5,
+   "stage": "結果画面(仮 SR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01450.jpg"
+  },
+  {
+   "t": 14.75,
+   "stage": "「図鑑で見る」を押す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01475.jpg"
+  },
+  {
+   "t": 15.0,
+   "stage": "「図鑑で見る」を押す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01500.jpg"
+  },
+  {
+   "t": 15.25,
+   "stage": "「図鑑で見る」を押す",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01525.jpg"
+  },
+  {
+   "t": 15.5,
+   "stage": "UR逆転: 亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01550.jpg"
+  },
+  {
+   "t": 15.75,
+   "stage": "UR逆転: 亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01575.jpg"
+  },
+  {
+   "t": 16.0,
+   "stage": "UR逆転: 亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01600.jpg"
+  },
+  {
+   "t": 16.25,
+   "stage": "UR逆転: 亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01625.jpg"
+  },
+  {
+   "t": 16.5,
+   "stage": "UR逆転: 亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01650.jpg"
+  },
+  {
+   "t": 16.75,
+   "stage": "UR逆転: 亀裂",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01675.jpg"
+  },
+  {
+   "t": 17.0,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01700.jpg"
+  },
+  {
+   "t": 17.25,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01725.jpg"
+  },
+  {
+   "t": 17.5,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01750.jpg"
+  },
+  {
+   "t": 17.75,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01775.jpg"
+  },
+  {
+   "t": 18.0,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01800.jpg"
+  },
+  {
+   "t": 18.25,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01825.jpg"
+  },
+  {
+   "t": 18.5,
+   "stage": "UR逆転: 共鳴",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01850.jpg"
+  },
+  {
+   "t": 18.75,
+   "stage": "UR逆転: 外殻の破砕",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01875.jpg"
+  },
+  {
+   "t": 19.0,
+   "stage": "UR逆転: 外殻の破砕",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01900.jpg"
+  },
+  {
+   "t": 19.25,
+   "stage": "UR逆転: 外殻の破砕",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01925.jpg"
+  },
+  {
+   "t": 19.5,
+   "stage": "UR逆転: URの降臨",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01950.jpg"
+  },
+  {
+   "t": 19.75,
+   "stage": "UR逆転: URの降臨",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-01975.jpg"
+  },
+  {
+   "t": 20.0,
+   "stage": "UR逆転: URの降臨",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02000.jpg"
+  },
+  {
+   "t": 20.25,
+   "stage": "UR逆転: URの降臨",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02025.jpg"
+  },
+  {
+   "t": 20.5,
+   "stage": "UR逆転: UR公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02050.jpg"
+  },
+  {
+   "t": 20.75,
+   "stage": "UR逆転: UR公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02075.jpg"
+  },
+  {
+   "t": 21.0,
+   "stage": "UR逆転: UR公開",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02100.jpg"
+  },
+  {
+   "t": 21.25,
+   "stage": "UR逆転: 余韻",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02125.jpg"
+  },
+  {
+   "t": 21.5,
+   "stage": "UR逆転: 余韻",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02150.jpg"
+  },
+  {
+   "t": 21.75,
+   "stage": "UR逆転: 余韻",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02175.jpg"
+  },
+  {
+   "t": 22.0,
+   "stage": "UR逆転: 余韻",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02200.jpg"
+  },
+  {
+   "t": 22.25,
+   "stage": "UR逆転: 余韻",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02225.jpg"
+  },
+  {
+   "t": 22.5,
+   "stage": "UR逆転: 余韻",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02250.jpg"
+  },
+  {
+   "t": 22.75,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02275.jpg"
+  },
+  {
+   "t": 23.0,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02300.jpg"
+  },
+  {
+   "t": 23.25,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02325.jpg"
+  },
+  {
+   "t": 23.5,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02350.jpg"
+  },
+  {
+   "t": 23.75,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02375.jpg"
+  },
+  {
+   "t": 24.0,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02400.jpg"
+  },
+  {
+   "t": 24.25,
+   "stage": "結果画面(真の結果 UR)",
+   "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames/f-02425.jpg"
+  }
+ ],
+ "audio": "音あり: 録画ツールの録画は音なしなので、アプリと同じ予約の関数で書き出した効果音(ハイブリッド版。サウンド ON の状態)を、演出の開始に合わせて後から合成した(-16 LUFS)。iPhone で録った音ではない"
+}

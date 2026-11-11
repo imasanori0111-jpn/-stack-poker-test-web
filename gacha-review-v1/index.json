@@ -1,0 +1,309 @@
+{
+ "title": "STACK POKER 単発ガチャ演出 検証素材 v1",
+ "base_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/",
+ "source": "PR #206 の録画ツール(scripts/ai_browser_video_review.py)で録画。スマホを模した Chromium・390×844・録画は音なし。iPhone 実機ではない",
+ "page_under_test": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/ (test-web 0cfa17a の同じファイル)",
+ "time_note": "t は演出の開始からの秒(映像から測った。誤差 ±0.1秒程度)。動画の時刻は録画の開始から数えるので、video_offset_seconds だけ遅れる",
+ "scenarios": [
+  {
+   "id": "n",
+   "title": "N 通常演出(石板なし)",
+   "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/",
+   "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/video.mp4",
+   "video_offset_seconds": 0.52,
+   "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key-strip.jpg",
+   "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=n&autoplay=1",
+   "frames_json_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/frames.json",
+   "frame_count": 43,
+   "key_frames": [
+    {
+     "t": 0.3,
+     "label": "宝箱",
+     "stage": "宝箱・接近とため",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k01-00030.jpg"
+    },
+    {
+     "t": 1.9,
+     "label": "宝箱が開く",
+     "stage": "宝箱が開く",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k02-00190.jpg"
+    },
+    {
+     "t": 3.0,
+     "label": "光が飛び出す",
+     "stage": "光が飛び出す",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k03-00300.jpg"
+    },
+    {
+     "t": 4.4,
+     "label": "光の板",
+     "stage": "光の板",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k04-00440.jpg"
+    },
+    {
+     "t": 5.4,
+     "label": "カード出現",
+     "stage": "カード出現",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k05-00540.jpg"
+    },
+    {
+     "t": 8.5,
+     "label": "結果画面",
+     "stage": "結果画面",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/n/key/k06-00850.jpg"
+    }
+   ]
+  },
+  {
+   "id": "sr-upgrade",
+   "title": "SR 昇格(銅→銀)",
+   "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/",
+   "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/video.mp4",
+   "video_offset_seconds": 0.32,
+   "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key-strip.jpg",
+   "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=sr-b2s&autoplay=1",
+   "frames_json_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/frames.json",
+   "frame_count": 57,
+   "key_frames": [
+    {
+     "t": 5.4,
+     "label": "石板(銅)",
+     "stage": "石板の出現(初期の色)",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k01-00540.jpg"
+    },
+    {
+     "t": 6.45,
+     "label": "昇格の光",
+     "stage": "石板の昇格",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k02-00645.jpg"
+    },
+    {
+     "t": 7.2,
+     "label": "石板(銀)",
+     "stage": "昇格のあと",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k03-00720.jpg"
+    },
+    {
+     "t": 8.6,
+     "label": "亀裂",
+     "stage": "亀裂",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k04-00860.jpg"
+    },
+    {
+     "t": 10.2,
+     "label": "ため",
+     "stage": "ため",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k05-01020.jpg"
+    },
+    {
+     "t": 10.7,
+     "label": "破砕",
+     "stage": "破砕・カード出現",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k06-01070.jpg"
+    },
+    {
+     "t": 11.5,
+     "label": "めくれる",
+     "stage": "カードがめくれる/表が光る",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k07-01150.jpg"
+    },
+    {
+     "t": 12.0,
+     "label": "公開",
+     "stage": "カード公開",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k08-01200.jpg"
+    },
+    {
+     "t": 13.2,
+     "label": "結果画面",
+     "stage": "結果画面",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/sr-upgrade/key/k09-01320.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ur",
+   "title": "UR 通常演出(銅→金・表向き)",
+   "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/",
+   "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/video.mp4",
+   "video_offset_seconds": 0.24,
+   "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key-strip.jpg",
+   "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=ur-b2g-up&autoplay=1",
+   "frames_json_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/frames.json",
+   "frame_count": 57,
+   "key_frames": [
+    {
+     "t": 5.4,
+     "label": "石板(銅)",
+     "stage": "石板の出現(初期の色)",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k01-00540.jpg"
+    },
+    {
+     "t": 6.5,
+     "label": "昇格の光",
+     "stage": "石板の昇格",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k02-00650.jpg"
+    },
+    {
+     "t": 7.2,
+     "label": "石板(金)",
+     "stage": "昇格のあと",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k03-00720.jpg"
+    },
+    {
+     "t": 9.8,
+     "label": "亀裂",
+     "stage": "亀裂・圧力",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k04-00980.jpg"
+    },
+    {
+     "t": 10.65,
+     "label": "破砕",
+     "stage": "破砕・カード出現",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k05-01065.jpg"
+    },
+    {
+     "t": 11.15,
+     "label": "表向きで出現",
+     "stage": "破砕・カード出現",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k06-01115.jpg"
+    },
+    {
+     "t": 12.0,
+     "label": "公開",
+     "stage": "カード公開",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k07-01200.jpg"
+    },
+    {
+     "t": 13.2,
+     "label": "結果画面",
+     "stage": "結果画面",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur/key/k08-01320.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ur-reversal-auto",
+   "title": "UR 逆転・自動型(仮 N)",
+   "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/",
+   "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/video.mp4",
+   "video_offset_seconds": 0.24,
+   "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key-strip.jpg",
+   "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=rev-auto-n&autoplay=1",
+   "frames_json_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/frames.json",
+   "frame_count": 89,
+   "key_frames": [
+    {
+     "t": 5.4,
+     "label": "カード出現(仮 N)",
+     "stage": "カード出現",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k01-00540.jpg"
+    },
+    {
+     "t": 9.0,
+     "label": "仮の結果",
+     "stage": "結果画面(仮 N)",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k02-00900.jpg"
+    },
+    {
+     "t": 12.4,
+     "label": "暗転",
+     "stage": "UR逆転: 暗転",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k03-01240.jpg"
+    },
+    {
+     "t": 14.6,
+     "label": "亀裂",
+     "stage": "UR逆転: 共鳴",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k04-01460.jpg"
+    },
+    {
+     "t": 16.0,
+     "label": "外殻の破砕",
+     "stage": "UR逆転: 共鳴",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k05-01600.jpg"
+    },
+    {
+     "t": 17.2,
+     "label": "白い光",
+     "stage": "UR逆転: URの降臨",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k06-01720.jpg"
+    },
+    {
+     "t": 18.0,
+     "label": "UR",
+     "stage": "UR逆転: UR公開",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k07-01800.jpg"
+    },
+    {
+     "t": 20.5,
+     "label": "結果画面(UR)",
+     "stage": "結果画面(真の結果 UR)",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-auto/key/k08-02050.jpg"
+    }
+   ]
+  },
+  {
+   "id": "ur-reversal-button",
+   "title": "UR 逆転・ボタン型(仮 SR。結果画面の「図鑑で見る」を押す)",
+   "page_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/",
+   "video_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/video.mp4",
+   "video_offset_seconds": 0.28,
+   "key_strip_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key-strip.jpg",
+   "reproduce_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-v1/?fixture=rev-button-sr&autoplay=1",
+   "frames_json_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/frames.json",
+   "frame_count": 98,
+   "key_frames": [
+    {
+     "t": 11.75,
+     "label": "公開(仮 SR)",
+     "stage": "カード公開",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k01-01175.jpg"
+    },
+    {
+     "t": 13.5,
+     "label": "仮の結果",
+     "stage": "結果画面(仮 SR)",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k02-01350.jpg"
+    },
+    {
+     "t": 14.9,
+     "label": "押した直後(暗転)",
+     "stage": "「図鑑で見る」を押す",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k03-01490.jpg"
+    },
+    {
+     "t": 17.6,
+     "label": "亀裂",
+     "stage": "UR逆転: 共鳴",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k04-01760.jpg"
+    },
+    {
+     "t": 18.8,
+     "label": "外殻の破砕",
+     "stage": "UR逆転: 外殻の破砕",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k05-01880.jpg"
+    },
+    {
+     "t": 19.4,
+     "label": "白い光",
+     "stage": "UR逆転: 外殻の破砕",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k06-01940.jpg"
+    },
+    {
+     "t": 20.0,
+     "label": "UR",
+     "stage": "UR逆転: URの降臨",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k07-02000.jpg"
+    },
+    {
+     "t": 23.5,
+     "label": "結果画面(UR)",
+     "stage": "結果画面(真の結果 UR)",
+     "url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-v1/ur-reversal-button/key/k08-02350.jpg"
+    }
+   ]
+  }
+ ],
+ "audio": "音あり: 録画ツールの録画は音なしなので、アプリと同じ予約の関数で書き出した効果音(ハイブリッド版。サウンド ON の状態)を、演出の開始に合わせて後から合成した(-16 LUFS)。iPhone で録った音ではない"
+}
