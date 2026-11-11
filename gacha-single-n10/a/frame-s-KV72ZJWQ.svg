@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 880" width="630" height="880">
+<defs><linearGradient id="m" gradientTransform="rotate(90 .5 .5)"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#c4ccd8"/><stop offset=".55" stop-color="#5d6676"/><stop offset=".75" stop-color="#c4ccd8"/><stop offset="1" stop-color="#ffffff"/></linearGradient><linearGradient id="m2" gradientTransform="rotate(0 .5 .5)"><stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#c4ccd8"/><stop offset=".55" stop-color="#5d6676"/><stop offset=".75" stop-color="#c4ccd8"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b0d1c" stop-opacity="0"/><stop offset=".12" stop-color="#0b0d1c" stop-opacity=".72"/><stop offset="1" stop-color="#05060d" stop-opacity=".94"/></linearGradient>
+<linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c4ccd8"/></linearGradient>
+<filter id="glow" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="6"/></filter>
+<mask id="hole"><rect width="630" height="880" fill="#fff"/><rect x="26" y="26" width="578" height="828" rx="5" fill="#000"/></mask>
+</defs>
+<!-- 外の枠(光) -->
+<rect x="10" y="10" width="610" height="860" rx="8" fill="none" stroke="rgba(220,230,245,.65)" stroke-width="16" filter="url(#glow)"/>
+<!-- 外の枠(金属) -->
+<rect width="630" height="880" rx="12" fill="url(#m)" mask="url(#hole)"/>
+<rect x="5" y="5" width="620" height="870" rx="9" fill="none" stroke="#5d6676" stroke-width="2" opacity=".8"/>
+<rect x="26" y="26" width="578" height="828" rx="5" fill="none" stroke="#5d6676" stroke-width="3"/>
+<rect x="33" y="33" width="564" height="814" rx="3" fill="none" stroke="url(#m2)" stroke-width="2" opacity=".9"/>
+<!-- 下の欄(名前・説明・プレイスタイル)。文字はアプリが重ねる -->
+<path d="M26 560 L604 560 L604 849 Q604 854 599 854 L31 854 Q26 854 26 849 Z" fill="url(#panel)"/>
+<path d="M60 694 L570 694" stroke="url(#m2)" stroke-width="2.5"/>
+<path d="M297 694 l18 -9 l18 9 l-18 9 Z" fill="url(#m)" stroke="#5d6676" stroke-width="1.5"/>
+<rect x="96" y="772" width="438" height="34" rx="17" fill="#000" fill-opacity=".45" stroke="url(#m2)" stroke-width="1.5"/>
+<rect x="96" y="812" width="438" height="34" rx="17" fill="#000" fill-opacity=".45" stroke="url(#m2)" stroke-width="1.5"/>
+<!-- 上の帯(店の名前。2段) -->
+<path d="M150 30 L432 30 L414 76 L150 76 Z" fill="url(#plate)" stroke="url(#m)" stroke-width="4"/>
+<path d="M150 76 L414 76 L402 106 L150 106 Z" fill="#0c0d18" fill-opacity=".9" stroke="url(#m)" stroke-width="3"/>
+<!-- 角の飾り -->
+<g stroke="url(#m)" opacity=".95">
+<g transform="translate(26 854) scale(1 -1)"><path d="M8 70 C8 34 34 8 70 8 M8 110 C14 70 30 44 58 30 C44 46 40 62 46 76 C30 70 22 84 28 96 M110 8 C70 14 44 30 30 58 C46 44 62 40 76 46 C70 30 84 22 96 28" fill="none" stroke-width="4" stroke-linecap="round"/></g>
+<g transform="translate(604 854) scale(-1 -1)"><path d="M8 70 C8 34 34 8 70 8 M8 110 C14 70 30 44 58 30 C44 46 40 62 46 76 C30 70 22 84 28 96 M110 8 C70 14 44 30 30 58 C46 44 62 40 76 46 C70 30 84 22 96 28" fill="none" stroke-width="4" stroke-linecap="round"/></g>
+<g transform="translate(604 26) scale(-1 1)"><path d=" M8 110 C14 70 30 44 58 30 C44 46 40 62 46 76 C30 70 22 84 28 96 M110 8 C70 14 44 30 30 58 C46 44 62 40 76 46 C70 30 84 22 96 28" fill="none" stroke-width="4" stroke-linecap="round"/></g>
+</g>
+</svg>
