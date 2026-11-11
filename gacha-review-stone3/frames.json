@@ -1,0 +1,34 @@
+{
+ "title": "STACK POKER 石板ひび割れ〜破壊 現行・v2・修正版v3 の比較",
+ "base_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/",
+ "source": "比較の動画・コマは、手動の時計で 30fps・1コマずつ描いた映像(390×844。同じ時刻で比べるため)。realtime-*.mp4 は自動録画(実時間。GPU なしの環境)。音は仮(3つとも同じ。合図の時刻は変えていない)",
+ "play_urls": {
+  "current": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone3/?fixture=sr-b2s&autoplay=1&sound=1",
+  "v2": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone3/?fixture=sr-b2s&autoplay=1&sound=1&crack=2",
+  "v3": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone3/?fixture=sr-b2s&autoplay=1&sound=1&crack=3",
+  "select_current": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone3/",
+  "select_v2": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone3/?crack=2",
+  "select_v3": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone3/?crack=3"
+ },
+ "videos": {
+  "side_by_side": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/stone-cur-v2-v3.mp4",
+  "crack_part": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/crack-part.mp4",
+  "slow": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/crack-slow.mp4",
+  "v3": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/stone-v3.mp4"
+ },
+ "images": [
+  "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/frames-crack.jpg",
+  "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/frames-push.jpg",
+  "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/frames-shatter.jpg"
+ ],
+ "realtime": {
+  "cur": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-cur.mp4",
+  "v2": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-v2.mp4",
+  "v3": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-v3.mp4",
+  "v3-click": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-v3-click.mp4",
+  "v3-faceup": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-v3-faceup.mp4",
+  "v3-reversal": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-v3-reversal.mp4",
+  "v3-n": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone3/realtime-v3-n.mp4"
+ },
+ "baseline_check": "?crack を付けないときは n12 の石板ルートの記録と全474コマ一致。?crack=2 は前回の v2 のまま"
+}
