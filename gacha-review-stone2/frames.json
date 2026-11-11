@@ -1,0 +1,32 @@
+{
+ "title": "STACK POKER 石板ひび割れ〜破壊 現行と改修後(試作)の比較",
+ "base_url": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/",
+ "source": "比較は手動の時計で 30fps・1コマずつ描いた映像(390×844)。realtime-*.mp4 は実時間の録画(GPU なしの環境)。音は仮(現行と同じ。合図の時刻は変えていない)",
+ "play_urls": {
+  "current": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone2/?fixture=sr-b2s&autoplay=1&sound=1",
+  "v2": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-single-stone2/?fixture=sr-b2s&autoplay=1&sound=1&crack=2"
+ },
+ "videos": {
+  "side_by_side": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/stone-current-vs-v2.mp4",
+  "crack_part": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/crack-part.mp4",
+  "shatter_slow": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/shatter-slow.mp4",
+  "v2": "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/stone-v2.mp4"
+ },
+ "images": [
+  "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/frames-crack.jpg",
+  "https://imasanori0111-jpn.github.io/-stack-poker-test-web/gacha-review-stone2/frames-shatter.jpg"
+ ],
+ "baseline_check": "?crack=2 を付けないときは n12 の石板ルートの記録と全474コマ一致。?crack=2 で変わるのは 7.90〜11.90 秒だけ",
+ "realtime": {
+  "current": {
+   "unique_fps": 23.1,
+   "stalls": 0,
+   "white_peak_pct": 19.9
+  },
+  "v2": {
+   "unique_fps": 23.1,
+   "stalls": 0,
+   "white_peak_pct": 10.9
+  }
+ }
+}
